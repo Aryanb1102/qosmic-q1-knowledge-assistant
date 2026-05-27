@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #040814;
+  --bg-alt: #071122;
+  --panel: rgba(9, 18, 37, 0.72);
+  --panel-strong: rgba(8, 14, 28, 0.9);
+  --line: rgba(124, 228, 255, 0.18);
+  --line-strong: rgba(124, 228, 255, 0.3);
+  --text: #ecf5ff;
+  --muted: #9db0c9;
+  --glow: #72d5ff;
+  --violet: #7a5cff;
+  --success: #5fe6b4;
+  --warning: #f6c760;
+  --danger: #ff7895;
+  --font-display: "Aptos Display", "Segoe UI Variable Display", "Bahnschrift", "Segoe UI", sans-serif;
+  --font-body: "Aptos", "Segoe UI Variable Text", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 20% 15%, rgba(114, 213, 255, 0.14), transparent 22%),
+    radial-gradient(circle at 80% 0%, rgba(122, 92, 255, 0.14), transparent 24%),
+    radial-gradient(circle at 50% 110%, rgba(27, 92, 144, 0.18), transparent 36%),
+    linear-gradient(180deg, #030610 0%, #071122 45%, #040814 100%);
+  font-family: var(--font-body);
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+body::before {
+  background-image:
+    radial-gradient(circle at 18% 24%, rgba(255,255,255,0.7) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 76% 12%, rgba(255,255,255,0.45) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 62% 72%, rgba(255,255,255,0.35) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 38% 82%, rgba(255,255,255,0.25) 0 1px, transparent 1.5px);
+  background-size: 240px 240px, 320px 320px, 360px 360px, 420px 420px;
+  opacity: 0.45;
+}
+
+body::after {
+  background-image:
+    linear-gradient(rgba(124, 228, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(124, 228, 255, 0.06) 1px, transparent 1px),
+    radial-gradient(circle at center, transparent 0 34%, rgba(124, 228, 255, 0.08) 34.2%, transparent 34.6%, transparent 0);
+  background-size: 88px 88px, 88px 88px, 100% 100%;
+  mask-image: linear-gradient(180deg, rgba(0,0,0,0.66), rgba(0,0,0,0.15));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.display {
+  font-family: var(--font-display);
+  letter-spacing: -0.03em;
+}
+
+.glass {
+  background: linear-gradient(180deg, rgba(14, 26, 49, 0.72), rgba(8, 14, 28, 0.84));
+  border: 1px solid rgba(124, 228, 255, 0.16);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+}
+
+.technical-line {
+  position: relative;
+}
+
+.technical-line::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -1px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(114, 213, 255, 0.75), transparent);
+}
+
+.prose-lite p {
+  margin: 0;
+}
+
+.prose-lite p + p {
+  margin-top: 0.8rem;
+}

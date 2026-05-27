@@ -1,0 +1,2291 @@
+[
+  {
+    "id": "req-maintain-fine-pointing-stability-md",
+    "slug": "req-maintain-fine-pointing-stability",
+    "title": "REQ - Maintain Fine Pointing Stability",
+    "path": "REQ - Maintain Fine Pointing Stability.md",
+    "folder": "root",
+    "subsystem": "root",
+    "type": "general",
+    "status": "unknown",
+    "frontmatter": {},
+    "frontmatterLinks": {},
+    "wikilinks": [],
+    "sections": [],
+    "summaryText": "REQ - Maintain Fine Pointing Stability",
+    "fullText": ""
+  },
+  {
+    "id": "welcome-md",
+    "slug": "welcome",
+    "title": "Welcome",
+    "path": "Welcome.md",
+    "folder": "root",
+    "subsystem": "root",
+    "type": "general",
+    "status": "unknown",
+    "frontmatter": {},
+    "frontmatterLinks": {},
+    "wikilinks": [
+      "create a link"
+    ],
+    "sections": [
+      {
+        "id": "welcome-md-section-0",
+        "heading": "Document Overview",
+        "level": 1,
+        "content": "This is your new *vault*.\n\nMake a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!\n\nWhen you're ready, delete this note and make the vault your own.",
+        "searchText": "Document Overview\nThis is your new *vault*.\n\nMake a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!\n\nWhen you're ready, delete this note and make the vault your own."
+      }
+    ],
+    "summaryText": "This is your new *vault*. Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)! When you're ready, delete this note and make the vault your own.",
+    "fullText": "Document Overview This is your new *vault*. Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)! When you're ready, delete this note and make the vault your own."
+  },
+  {
+    "id": "wiki-master-index-md-md",
+    "slug": "qosmic-knowledge-graph-master-index",
+    "title": "QOSMIC Knowledge Graph - Master Index",
+    "path": "wiki/_master-index.md.md",
+    "folder": "wiki",
+    "subsystem": "vault-navigation",
+    "type": "index",
+    "status": "unknown",
+    "frontmatter": {},
+    "frontmatterLinks": {},
+    "wikilinks": [
+      "SUBSYS - Telescope and Optical Receiver",
+      "DD - Use Ritchey-Chretien Telescope for Primary Receiver",
+      "DD - Use Fiber-Coupled Optical Receiver Architecture",
+      "REQ - Maintain Optical Link During LEO Pass",
+      "REQ - Support High-Rate Downlink Capture",
+      "PHYS - Diffraction Link Budget and Aperture Size",
+      "PHYS - Fiber Coupling Efficiency",
+      "COMP - Candidate 50cm Telescope Assembly",
+      "REF - Optical Ground Station Design Literature",
+      "SUBSYS - Fine Pointing and Tracking",
+      "DD - Separate Coarse and Fine Pointing Loops",
+      "DD - Set FSM Bandwidth Target Near 400 Hz",
+      "REQ - Maintain Fine Pointing Stability",
+      "REQ - Reject Platform Jitter and Beam Wander",
+      "PHYS - Atmospheric Turbulence and Beam Wander",
+      "PHYS - Pointing Error and Optical Link Margin",
+      "COMP - Candidate Fast Steering Mirror",
+      "COMP - Candidate Tracking Camera",
+      "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-master-index-md-md-section-0",
+        "heading": "Purpose",
+        "level": 2,
+        "content": "This vault is a prototype organizational knowledge graph for QOSMIC's optical ground station engineering work. It is designed to preserve design rationale, reduce onboarding friction, and allow AI-assisted querying with citations.\n\nThe vault is structured around engineering decisions rather than loose documentation. Each major design decision is linked to the requirement it derives from, the physics concept that justifies it, the component that implements it, and the reference or test that supports it.",
+        "searchText": "Purpose\nThis vault is a prototype organizational knowledge graph for QOSMIC's optical ground station engineering work. It is designed to preserve design rationale, reduce onboarding friction, and allow AI-assisted querying with citations.\n\nThe vault is structured around engineering decisions rather than loose documentation. Each major design decision is linked to the requirement it derives from, the physics concept that justifies it, the component that implements it, and the reference or test that supports it."
+      },
+      {
+        "id": "wiki-master-index-md-md-section-1",
+        "heading": "Telescope and Optical Receiver",
+        "level": 3,
+        "content": "- [[SUBSYS - Telescope and Optical Receiver]]\n- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n- [[REQ - Maintain Optical Link During LEO Pass]]\n- [[REQ - Support High-Rate Downlink Capture]]\n- [[PHYS - Diffraction Link Budget and Aperture Size]]\n- [[PHYS - Fiber Coupling Efficiency]]\n- [[COMP - Candidate 50cm Telescope Assembly]]\n- [[REF - Optical Ground Station Design Literature]]",
+        "searchText": "Telescope and Optical Receiver\n- [[SUBSYS - Telescope and Optical Receiver]]\n- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n- [[REQ - Maintain Optical Link During LEO Pass]]\n- [[REQ - Support High-Rate Downlink Capture]]\n- [[PHYS - Diffraction Link Budget and Aperture Size]]\n- [[PHYS - Fiber Coupling Efficiency]]\n- [[COMP - Candidate 50cm Telescope Assembly]]\n- [[REF - Optical Ground Station Design Literature]]"
+      },
+      {
+        "id": "wiki-master-index-md-md-section-2",
+        "heading": "Fine Pointing and Tracking",
+        "level": 3,
+        "content": "- [[SUBSYS - Fine Pointing and Tracking]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n- [[REQ - Maintain Fine Pointing Stability]]\n- [[REQ - Reject Platform Jitter and Beam Wander]]\n- [[PHYS - Atmospheric Turbulence and Beam Wander]]\n- [[PHYS - Pointing Error and Optical Link Margin]]\n- [[COMP - Candidate Fast Steering Mirror]]\n- [[COMP - Candidate Tracking Camera]]\n- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]",
+        "searchText": "Fine Pointing and Tracking\n- [[SUBSYS - Fine Pointing and Tracking]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n- [[REQ - Maintain Fine Pointing Stability]]\n- [[REQ - Reject Platform Jitter and Beam Wander]]\n- [[PHYS - Atmospheric Turbulence and Beam Wander]]\n- [[PHYS - Pointing Error and Optical Link Margin]]\n- [[COMP - Candidate Fast Steering Mirror]]\n- [[COMP - Candidate Tracking Camera]]\n- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      },
+      {
+        "id": "wiki-master-index-md-md-section-3",
+        "heading": "Status Levels",
+        "level": 2,
+        "content": "- `draft`: incomplete or newly created note\n- `reviewed`: checked by a relevant engineer but not yet canonical\n- `canonical`: current approved source of truth\n- `superseded`: historically important but replaced by a later decision\n- `conflicting`: unresolved conflict with another note",
+        "searchText": "Status Levels\n- `draft`: incomplete or newly created note\n- `reviewed`: checked by a relevant engineer but not yet canonical\n- `canonical`: current approved source of truth\n- `superseded`: historically important but replaced by a later decision\n- `conflicting`: unresolved conflict with another note"
+      },
+      {
+        "id": "wiki-master-index-md-md-section-4",
+        "heading": "AI Query Rule",
+        "level": 2,
+        "content": "AI assistants must prefer `canonical` notes, use `reviewed` notes when canonical notes are unavailable, and clearly label any information taken from `draft` or `conflicting` notes.",
+        "searchText": "AI Query Rule\nAI assistants must prefer `canonical` notes, use `reviewed` notes when canonical notes are unavailable, and clearly label any information taken from `draft` or `conflicting` notes."
+      }
+    ],
+    "summaryText": "This vault is a prototype organizational knowledge graph for QOSMIC's optical ground station engineering work. It is designed to preserve design rationale, reduce onboarding friction, and allow AI-assisted querying with citations. The vault is structured around engineering decisions rather than loose documentation. Each major design decision is linked to the requirement it derives from, the physics concept that justifies it, the component that implements it, and the reference or test that supports it.",
+    "fullText": "Purpose This vault is a prototype organizational knowledge graph for QOSMIC's optical ground station engineering work. It is designed to preserve design rationale, reduce onboarding friction, and allow AI-assisted querying with citations. The vault is structured around engineering decisions rather than loose documentation. Each major design decision is linked to the requirement it derives from, the physics concept that justifies it, the component that implements it, and the reference or test that supports it. Telescope and Optical Receiver - [[SUBSYS - Telescope and Optical Receiver]] - [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]] - [[DD - Use Fiber-Coupled Optical Receiver Architecture]] - [[REQ - Maintain Optical Link During LEO Pass]] - [[REQ - Support High-Rate Downlink Capture]] - [[PHYS - Diffraction Link Budget and Aperture Size]] - [[PHYS - Fiber Coupling Efficiency]] - [[COMP - Candidate 50cm Telescope Assembly]] - [[REF - Optical Ground Station Design Literature]] Fine Pointing and Tracking - [[SUBSYS - Fine Pointing and Tracking]] - [[DD - Separate Coarse and Fine Pointing Loops]] - [[DD - Set FSM Bandwidth Target Near 400 Hz]] - [[REQ - Maintain Fine Pointing Stability]] - [[REQ - Reject Platform Jitter and Beam Wander]] - [[PHYS - Atmospheric Turbulence and Beam Wander]] - [[PHYS - Pointing Error and Optical Link Margin]] - [[COMP - Candidate Fast Steering Mirror]] - [[COMP - Candidate Tracking Camera]] - [[REF - Adaptive Optics and Atmospheric Turbulence Literature]] Status Levels - `draft`: incomplete or newly created note - `reviewed`: checked by a relevant engineer but not yet canonical - `canonical`: current approved source of truth - `superseded`: historically important but replaced by a later decision - `conflicting`: unresolved conflict with another note AI Query Rule AI assistants must prefer `canonical` notes, use `reviewed` notes when canonical notes are unavailable, and clearly label any information taken from `draft` or `conflicting` notes."
+  },
+  {
+    "id": "wiki-fine-pointing-and-tracking-index-md",
+    "slug": "fine-pointing-and-tracking-index",
+    "title": "Fine Pointing and Tracking - Index",
+    "path": "wiki/fine-pointing-and-tracking/_index.md",
+    "folder": "wiki/fine-pointing-and-tracking",
+    "subsystem": "fine-pointing-and-tracking",
+    "type": "index",
+    "status": "unknown",
+    "frontmatter": {},
+    "frontmatterLinks": {},
+    "wikilinks": [
+      "SUBSYS - Fine Pointing and Tracking",
+      "DD - Separate Coarse and Fine Pointing Loops",
+      "DD - Set FSM Bandwidth Target Near 400 Hz",
+      "REQ - Maintain Fine Pointing Stability",
+      "REQ - Reject Platform Jitter and Beam Wander",
+      "PHYS - Atmospheric Turbulence and Beam Wander",
+      "PHYS - Pointing Error and Optical Link Margin",
+      "COMP - Candidate Fast Steering Mirror",
+      "COMP - Candidate Tracking Camera",
+      "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-fine-pointing-and-tracking-index-md-section-0",
+        "heading": "Subsystem Overview",
+        "level": 2,
+        "content": "- [[SUBSYS - Fine Pointing and Tracking]]",
+        "searchText": "Subsystem Overview\n- [[SUBSYS - Fine Pointing and Tracking]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-index-md-section-1",
+        "heading": "Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]",
+        "searchText": "Design Decisions\n- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-index-md-section-2",
+        "heading": "Requirements",
+        "level": 2,
+        "content": "- [[REQ - Maintain Fine Pointing Stability]]\n- [[REQ - Reject Platform Jitter and Beam Wander]]",
+        "searchText": "Requirements\n- [[REQ - Maintain Fine Pointing Stability]]\n- [[REQ - Reject Platform Jitter and Beam Wander]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-index-md-section-3",
+        "heading": "Physics Concepts",
+        "level": 2,
+        "content": "- [[PHYS - Atmospheric Turbulence and Beam Wander]]\n- [[PHYS - Pointing Error and Optical Link Margin]]",
+        "searchText": "Physics Concepts\n- [[PHYS - Atmospheric Turbulence and Beam Wander]]\n- [[PHYS - Pointing Error and Optical Link Margin]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-index-md-section-4",
+        "heading": "Components",
+        "level": 2,
+        "content": "- [[COMP - Candidate Fast Steering Mirror]]\n- [[COMP - Candidate Tracking Camera]]",
+        "searchText": "Components\n- [[COMP - Candidate Fast Steering Mirror]]\n- [[COMP - Candidate Tracking Camera]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-index-md-section-5",
+        "heading": "References",
+        "level": 2,
+        "content": "- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]",
+        "searchText": "References\n- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      }
+    ],
+    "summaryText": "- [[SUBSYS - Fine Pointing and Tracking]]",
+    "fullText": "Subsystem Overview - [[SUBSYS - Fine Pointing and Tracking]] Design Decisions - [[DD - Separate Coarse and Fine Pointing Loops]] - [[DD - Set FSM Bandwidth Target Near 400 Hz]] Requirements - [[REQ - Maintain Fine Pointing Stability]] - [[REQ - Reject Platform Jitter and Beam Wander]] Physics Concepts - [[PHYS - Atmospheric Turbulence and Beam Wander]] - [[PHYS - Pointing Error and Optical Link Margin]] Components - [[COMP - Candidate Fast Steering Mirror]] - [[COMP - Candidate Tracking Camera]] References - [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+  },
+  {
+    "id": "wiki-fine-pointing-and-tracking-comp-candidate-fast-steering-mirror-md",
+    "slug": "comp-candidate-fast-steering-mirror",
+    "title": "COMP - Candidate Fast Steering Mirror",
+    "path": "wiki/fine-pointing-and-tracking/COMP - Candidate Fast Steering Mirror.md",
+    "folder": "wiki/fine-pointing-and-tracking",
+    "subsystem": "fine-pointing-and-tracking",
+    "type": "component",
+    "status": "draft",
+    "frontmatter": {
+      "type": "component",
+      "status": "draft",
+      "vendor": "TBD",
+      "part_number": "TBD",
+      "estimated_cost": "TBD after RFQ",
+      "lead_time": "TBD after RFQ",
+      "datasheet": "TBD",
+      "used_in": [
+        "[[SUBSYS - Fine Pointing and Tracking]]"
+      ],
+      "implements": [
+        "[[DD - Set FSM Bandwidth Target Near 400 Hz]]",
+        "[[DD - Separate Coarse and Fine Pointing Loops]]"
+      ],
+      "risks": [
+        "actuator resonance",
+        "control instability",
+        "procurement lead time"
+      ]
+    },
+    "frontmatterLinks": {
+      "used_in": [
+        "SUBSYS - Fine Pointing and Tracking"
+      ],
+      "implements": [
+        "DD - Set FSM Bandwidth Target Near 400 Hz",
+        "DD - Separate Coarse and Fine Pointing Loops"
+      ]
+    },
+    "wikilinks": [
+      "DD - Set FSM Bandwidth Target Near 400 Hz",
+      "DD - Separate Coarse and Fine Pointing Loops",
+      "REF - Adaptive Optics and Atmospheric Turbulence Literature",
+      "SUBSYS - Fine Pointing and Tracking"
+    ],
+    "sections": [
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-fast-steering-mirror-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "The fast steering mirror is the actuator responsible for high-speed angular correction in the fine pointing loop.",
+        "searchText": "Summary\nThe fast steering mirror is the actuator responsible for high-speed angular correction in the fine pointing loop."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-fast-steering-mirror-md-section-1",
+        "heading": "Function",
+        "level": 2,
+        "content": "The FSM corrects residual pointing error after the coarse tracking mount has followed the satellite’s large angular motion. It is intended to handle smaller, faster disturbances.",
+        "searchText": "Function\nThe FSM corrects residual pointing error after the coarse tracking mount has followed the satellite’s large angular motion. It is intended to handle smaller, faster disturbances."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-fast-steering-mirror-md-section-2",
+        "heading": "Candidate Specifications",
+        "level": 2,
+        "content": "- Closed-loop bandwidth target near 400 Hz, subject to validation\n- Angular range sufficient for residual correction\n- Low latency control interface\n- Mechanical resonance profile compatible with control design\n- Integration with tracking camera feedback",
+        "searchText": "Candidate Specifications\n- Closed-loop bandwidth target near 400 Hz, subject to validation\n- Angular range sufficient for residual correction\n- Low latency control interface\n- Mechanical resonance profile compatible with control design\n- Integration with tracking camera feedback"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-fast-steering-mirror-md-section-3",
+        "heading": "Vendor and Procurement Notes",
+        "level": 2,
+        "content": "Final vendor selection should compare bandwidth, angular range, mirror size, control interface, lead time, support quality, and cost.",
+        "searchText": "Vendor and Procurement Notes\nFinal vendor selection should compare bandwidth, angular range, mirror size, control interface, lead time, support quality, and cost."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-fast-steering-mirror-md-section-4",
+        "heading": "Implements",
+        "level": 2,
+        "content": "- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]",
+        "searchText": "Implements\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-fast-steering-mirror-md-section-5",
+        "heading": "Risks",
+        "level": 2,
+        "content": "- Claimed bandwidth may not hold under integrated system conditions.\n- High bandwidth may excite mechanical resonance.\n- Control-loop tuning may require more testing than expected.\n- Lead time may delay prototype integration.",
+        "searchText": "Risks\n- Claimed bandwidth may not hold under integrated system conditions.\n- High bandwidth may excite mechanical resonance.\n- Control-loop tuning may require more testing than expected.\n- Lead time may delay prototype integration."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-fast-steering-mirror-md-section-6",
+        "heading": "Alternatives",
+        "level": 2,
+        "content": "- Lower-bandwidth FSM\n- Voice-coil tip/tilt mirror\n- Piezo-driven mirror\n- Coarse mount correction only",
+        "searchText": "Alternatives\n- Lower-bandwidth FSM\n- Voice-coil tip/tilt mirror\n- Piezo-driven mirror\n- Coarse mount correction only"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-fast-steering-mirror-md-section-7",
+        "heading": "References",
+        "level": 2,
+        "content": "- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]",
+        "searchText": "References\n- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      }
+    ],
+    "summaryText": "The fast steering mirror is the actuator responsible for high-speed angular correction in the fine pointing loop.",
+    "fullText": "Summary The fast steering mirror is the actuator responsible for high-speed angular correction in the fine pointing loop. Function The FSM corrects residual pointing error after the coarse tracking mount has followed the satellite’s large angular motion. It is intended to handle smaller, faster disturbances. Candidate Specifications - Closed-loop bandwidth target near 400 Hz, subject to validation - Angular range sufficient for residual correction - Low latency control interface - Mechanical resonance profile compatible with control design - Integration with tracking camera feedback Vendor and Procurement Notes Final vendor selection should compare bandwidth, angular range, mirror size, control interface, lead time, support quality, and cost. Implements - [[DD - Set FSM Bandwidth Target Near 400 Hz]] - [[DD - Separate Coarse and Fine Pointing Loops]] Risks - Claimed bandwidth may not hold under integrated system conditions. - High bandwidth may excite mechanical resonance. - Control-loop tuning may require more testing than expected. - Lead time may delay prototype integration. Alternatives - Lower-bandwidth FSM - Voice-coil tip/tilt mirror - Piezo-driven mirror - Coarse mount correction only References - [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+  },
+  {
+    "id": "wiki-fine-pointing-and-tracking-comp-candidate-tracking-camera-md",
+    "slug": "comp-candidate-tracking-camera",
+    "title": "COMP - Candidate Tracking Camera",
+    "path": "wiki/fine-pointing-and-tracking/COMP - Candidate Tracking Camera.md",
+    "folder": "wiki/fine-pointing-and-tracking",
+    "subsystem": "fine-pointing-and-tracking",
+    "type": "component",
+    "status": "draft",
+    "frontmatter": {
+      "type": "component",
+      "status": "draft",
+      "vendor": "TBD",
+      "part_number": "TBD",
+      "estimated_cost": "TBD after RFQ",
+      "lead_time": "TBD after RFQ",
+      "datasheet": "TBD",
+      "used_in": [
+        "[[SUBSYS - Fine Pointing and Tracking]]"
+      ],
+      "implements": [
+        "[[DD - Separate Coarse and Fine Pointing Loops]]"
+      ],
+      "risks": [
+        "latency",
+        "sensitivity",
+        "frame-rate limitation"
+      ]
+    },
+    "frontmatterLinks": {
+      "used_in": [
+        "SUBSYS - Fine Pointing and Tracking"
+      ],
+      "implements": [
+        "DD - Separate Coarse and Fine Pointing Loops"
+      ]
+    },
+    "wikilinks": [
+      "DD - Separate Coarse and Fine Pointing Loops",
+      "REF - Adaptive Optics and Atmospheric Turbulence Literature",
+      "SUBSYS - Fine Pointing and Tracking"
+    ],
+    "sections": [
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-tracking-camera-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "The tracking camera senses residual beam or target position error and provides feedback to the fine pointing control loop.",
+        "searchText": "Summary\nThe tracking camera senses residual beam or target position error and provides feedback to the fine pointing control loop."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-tracking-camera-md-section-1",
+        "heading": "Function",
+        "level": 2,
+        "content": "The tracking camera allows the system to estimate pointing error after coarse tracking. Its measurements feed the control loop that drives the fast steering mirror.",
+        "searchText": "Function\nThe tracking camera allows the system to estimate pointing error after coarse tracking. Its measurements feed the control loop that drives the fast steering mirror."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-tracking-camera-md-section-2",
+        "heading": "Candidate Specifications",
+        "level": 2,
+        "content": "- Frame rate compatible with fine pointing loop design\n- Low latency readout\n- Sufficient sensitivity for expected signal levels\n- Integration with real-time control software\n- Stable calibration procedure",
+        "searchText": "Candidate Specifications\n- Frame rate compatible with fine pointing loop design\n- Low latency readout\n- Sufficient sensitivity for expected signal levels\n- Integration with real-time control software\n- Stable calibration procedure"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-tracking-camera-md-section-3",
+        "heading": "Vendor and Procurement Notes",
+        "level": 2,
+        "content": "Vendor selection should consider sensor latency, frame rate, sensitivity, software support, SDK maturity, and integration difficulty.",
+        "searchText": "Vendor and Procurement Notes\nVendor selection should consider sensor latency, frame rate, sensitivity, software support, SDK maturity, and integration difficulty."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-tracking-camera-md-section-4",
+        "heading": "Implements",
+        "level": 2,
+        "content": "- [[DD - Separate Coarse and Fine Pointing Loops]]",
+        "searchText": "Implements\n- [[DD - Separate Coarse and Fine Pointing Loops]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-tracking-camera-md-section-5",
+        "heading": "Risks",
+        "level": 2,
+        "content": "- Camera latency may limit control bandwidth.\n- Insufficient sensitivity can affect lock reliability.\n- SDK or driver instability can delay integration.\n- Calibration drift may reduce pointing accuracy.",
+        "searchText": "Risks\n- Camera latency may limit control bandwidth.\n- Insufficient sensitivity can affect lock reliability.\n- SDK or driver instability can delay integration.\n- Calibration drift may reduce pointing accuracy."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-tracking-camera-md-section-6",
+        "heading": "Alternatives",
+        "level": 2,
+        "content": "- Quadrant photodiode\n- Position-sensitive detector\n- Higher-speed industrial camera\n- Dedicated tracking sensor module",
+        "searchText": "Alternatives\n- Quadrant photodiode\n- Position-sensitive detector\n- Higher-speed industrial camera\n- Dedicated tracking sensor module"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-comp-candidate-tracking-camera-md-section-7",
+        "heading": "References",
+        "level": 2,
+        "content": "- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]",
+        "searchText": "References\n- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      }
+    ],
+    "summaryText": "The tracking camera senses residual beam or target position error and provides feedback to the fine pointing control loop.",
+    "fullText": "Summary The tracking camera senses residual beam or target position error and provides feedback to the fine pointing control loop. Function The tracking camera allows the system to estimate pointing error after coarse tracking. Its measurements feed the control loop that drives the fast steering mirror. Candidate Specifications - Frame rate compatible with fine pointing loop design - Low latency readout - Sufficient sensitivity for expected signal levels - Integration with real-time control software - Stable calibration procedure Vendor and Procurement Notes Vendor selection should consider sensor latency, frame rate, sensitivity, software support, SDK maturity, and integration difficulty. Implements - [[DD - Separate Coarse and Fine Pointing Loops]] Risks - Camera latency may limit control bandwidth. - Insufficient sensitivity can affect lock reliability. - SDK or driver instability can delay integration. - Calibration drift may reduce pointing accuracy. Alternatives - Quadrant photodiode - Position-sensitive detector - Higher-speed industrial camera - Dedicated tracking sensor module References - [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+  },
+  {
+    "id": "wiki-fine-pointing-and-tracking-dd-separate-coarse-and-fine-pointing-loops-md",
+    "slug": "dd-separate-coarse-and-fine-pointing-loops",
+    "title": "DD - Separate Coarse and Fine Pointing Loops",
+    "path": "wiki/fine-pointing-and-tracking/DD - Separate Coarse and Fine Pointing Loops.md",
+    "folder": "wiki/fine-pointing-and-tracking",
+    "subsystem": "fine-pointing-and-tracking",
+    "type": "design_decision",
+    "status": "canonical",
+    "owner": "controls-and-optics",
+    "frontmatter": {
+      "type": "design_decision",
+      "status": "canonical",
+      "owner": "controls-and-optics",
+      "decision_date": "2026-01-15T00:00:00.000Z",
+      "linked_requirements": [
+        "[[REQ - Maintain Fine Pointing Stability]]",
+        "[[REQ - Reject Platform Jitter and Beam Wander]]"
+      ],
+      "justified_by": [
+        "[[PHYS - Pointing Error and Optical Link Margin]]"
+      ],
+      "implemented_by": [
+        "[[COMP - Candidate Fast Steering Mirror]]",
+        "[[COMP - Candidate Tracking Camera]]"
+      ],
+      "depends_on": [
+        "[[SUBSYS - Telescope and Optical Receiver]]"
+      ],
+      "supersedes": null,
+      "superseded_by": null,
+      "tested_by": [
+        "closed-loop tracking test"
+      ],
+      "references": [
+        "[[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "linked_requirements": [
+        "REQ - Maintain Fine Pointing Stability",
+        "REQ - Reject Platform Jitter and Beam Wander"
+      ],
+      "justified_by": [
+        "PHYS - Pointing Error and Optical Link Margin"
+      ],
+      "implemented_by": [
+        "COMP - Candidate Fast Steering Mirror",
+        "COMP - Candidate Tracking Camera"
+      ],
+      "depends_on": [
+        "SUBSYS - Telescope and Optical Receiver"
+      ],
+      "references": [
+        "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+      ]
+    },
+    "wikilinks": [
+      "PHYS - Pointing Error and Optical Link Margin",
+      "COMP - Candidate Tracking Camera",
+      "COMP - Candidate Fast Steering Mirror",
+      "REQ - Maintain Fine Pointing Stability",
+      "SUBSYS - Telescope and Optical Receiver",
+      "REQ - Reject Platform Jitter and Beam Wander",
+      "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-separate-coarse-and-fine-pointing-loops-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "Use separate coarse and fine pointing loops so the telescope mount handles large satellite-tracking motion while the fine pointing system corrects smaller, faster residual disturbances.",
+        "searchText": "Summary\nUse separate coarse and fine pointing loops so the telescope mount handles large satellite-tracking motion while the fine pointing system corrects smaller, faster residual disturbances."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-separate-coarse-and-fine-pointing-loops-md-section-1",
+        "heading": "Context",
+        "level": 2,
+        "content": "A LEO satellite pass requires large angular tracking across the sky. A telescope mount can handle the large motion, but it is not ideal for high-speed small-angle corrections.",
+        "searchText": "Context\nA LEO satellite pass requires large angular tracking across the sky. A telescope mount can handle the large motion, but it is not ideal for high-speed small-angle corrections."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-separate-coarse-and-fine-pointing-loops-md-section-2",
+        "heading": "Decision",
+        "level": 2,
+        "content": "Separate the tracking architecture into a coarse pointing loop and a fine pointing loop.",
+        "searchText": "Decision\nSeparate the tracking architecture into a coarse pointing loop and a fine pointing loop."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-separate-coarse-and-fine-pointing-loops-md-section-3",
+        "heading": "Alternatives Considered",
+        "level": 2,
+        "content": "- Coarse mount only\n- Fine pointing only\n- Single integrated loop for all tracking correction\n- Post-processing compensation without optical correction",
+        "searchText": "Alternatives Considered\n- Coarse mount only\n- Fine pointing only\n- Single integrated loop for all tracking correction\n- Post-processing compensation without optical correction"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-separate-coarse-and-fine-pointing-loops-md-section-4",
+        "heading": "Trade-offs",
+        "level": 2,
+        "content": "Separating the loops improves control clarity and allows each actuator to operate in a realistic frequency range. The cost is additional calibration, control-system complexity, and integration effort.",
+        "searchText": "Trade-offs\nSeparating the loops improves control clarity and allows each actuator to operate in a realistic frequency range. The cost is additional calibration, control-system complexity, and integration effort."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-separate-coarse-and-fine-pointing-loops-md-section-5",
+        "heading": "Physics Rationale",
+        "level": 2,
+        "content": "This decision is justified by [[PHYS - Pointing Error and Optical Link Margin]]. Pointing loss directly affects the optical link, so correction must happen at the appropriate physical layer.",
+        "searchText": "Physics Rationale\nThis decision is justified by [[PHYS - Pointing Error and Optical Link Margin]]. Pointing loss directly affects the optical link, so correction must happen at the appropriate physical layer."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-separate-coarse-and-fine-pointing-loops-md-section-6",
+        "heading": "Implementation",
+        "level": 2,
+        "content": "The coarse mount performs satellite tracking. The fine pointing loop uses [[COMP - Candidate Tracking Camera]] and [[COMP - Candidate Fast Steering Mirror]] to correct residual beam position error.",
+        "searchText": "Implementation\nThe coarse mount performs satellite tracking. The fine pointing loop uses [[COMP - Candidate Tracking Camera]] and [[COMP - Candidate Fast Steering Mirror]] to correct residual beam position error."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-separate-coarse-and-fine-pointing-loops-md-section-7",
+        "heading": "Testing and Validation",
+        "level": 2,
+        "content": "Validation should include step response, disturbance rejection, and end-to-end pointing stability tests.",
+        "searchText": "Testing and Validation\nValidation should include step response, disturbance rejection, and end-to-end pointing stability tests."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-separate-coarse-and-fine-pointing-loops-md-section-8",
+        "heading": "Open Questions",
+        "level": 2,
+        "content": "- Where should the control bandwidth split between coarse and fine loops be set?\n- How should loop handoff be handled during acquisition and loss-of-lock conditions?",
+        "searchText": "Open Questions\n- Where should the control bandwidth split between coarse and fine loops be set?\n- How should loop handoff be handled during acquisition and loss-of-lock conditions?"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-separate-coarse-and-fine-pointing-loops-md-section-9",
+        "heading": "Links",
+        "level": 2,
+        "content": "- derives-from: [[REQ - Maintain Fine Pointing Stability]]\n- justified-by: [[PHYS - Pointing Error and Optical Link Margin]]\n- implemented-by: [[COMP - Candidate Fast Steering Mirror]], [[COMP - Candidate Tracking Camera]]\n- depends-on: [[SUBSYS - Telescope and Optical Receiver]]",
+        "searchText": "Links\n- derives-from: [[REQ - Maintain Fine Pointing Stability]]\n- justified-by: [[PHYS - Pointing Error and Optical Link Margin]]\n- implemented-by: [[COMP - Candidate Fast Steering Mirror]], [[COMP - Candidate Tracking Camera]]\n- depends-on: [[SUBSYS - Telescope and Optical Receiver]]"
+      }
+    ],
+    "summaryText": "Use separate coarse and fine pointing loops so the telescope mount handles large satellite-tracking motion while the fine pointing system corrects smaller, faster residual disturbances.",
+    "fullText": "Summary Use separate coarse and fine pointing loops so the telescope mount handles large satellite-tracking motion while the fine pointing system corrects smaller, faster residual disturbances. Context A LEO satellite pass requires large angular tracking across the sky. A telescope mount can handle the large motion, but it is not ideal for high-speed small-angle corrections. Decision Separate the tracking architecture into a coarse pointing loop and a fine pointing loop. Alternatives Considered - Coarse mount only - Fine pointing only - Single integrated loop for all tracking correction - Post-processing compensation without optical correction Trade-offs Separating the loops improves control clarity and allows each actuator to operate in a realistic frequency range. The cost is additional calibration, control-system complexity, and integration effort. Physics Rationale This decision is justified by [[PHYS - Pointing Error and Optical Link Margin]]. Pointing loss directly affects the optical link, so correction must happen at the appropriate physical layer. Implementation The coarse mount performs satellite tracking. The fine pointing loop uses [[COMP - Candidate Tracking Camera]] and [[COMP - Candidate Fast Steering Mirror]] to correct residual beam position error. Testing and Validation Validation should include step response, disturbance rejection, and end-to-end pointing stability tests. Open Questions - Where should the control bandwidth split between coarse and fine loops be set? - How should loop handoff be handled during acquisition and loss-of-lock conditions? Links - derives-from: [[REQ - Maintain Fine Pointing Stability]] - justified-by: [[PHYS - Pointing Error and Optical Link Margin]] - implemented-by: [[COMP - Candidate Fast Steering Mirror]], [[COMP - Candidate Tracking Camera]] - depends-on: [[SUBSYS - Telescope and Optical Receiver]]"
+  },
+  {
+    "id": "wiki-fine-pointing-and-tracking-dd-set-fsm-bandwidth-target-near-400-hz-md",
+    "slug": "dd-set-fsm-bandwidth-target-near-400-hz",
+    "title": "DD - Set FSM Bandwidth Target Near 400 Hz",
+    "path": "wiki/fine-pointing-and-tracking/DD - Set FSM Bandwidth Target Near 400 Hz.md",
+    "folder": "wiki/fine-pointing-and-tracking",
+    "subsystem": "fine-pointing-and-tracking",
+    "type": "design_decision",
+    "status": "reviewed",
+    "owner": "controls-and-optics",
+    "frontmatter": {
+      "type": "design_decision",
+      "status": "reviewed",
+      "owner": "controls-and-optics",
+      "decision_date": "2026-01-15T00:00:00.000Z",
+      "linked_requirements": [
+        "[[REQ - Maintain Fine Pointing Stability]]",
+        "[[REQ - Reject Platform Jitter and Beam Wander]]"
+      ],
+      "justified_by": [
+        "[[PHYS - Atmospheric Turbulence and Beam Wander]]",
+        "[[PHYS - Pointing Error and Optical Link Margin]]"
+      ],
+      "implemented_by": [
+        "[[COMP - Candidate Fast Steering Mirror]]"
+      ],
+      "depends_on": [
+        "[[DD - Separate Coarse and Fine Pointing Loops]]"
+      ],
+      "supersedes": null,
+      "superseded_by": null,
+      "tested_by": [
+        "disturbance rejection test"
+      ],
+      "references": [
+        "[[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "linked_requirements": [
+        "REQ - Maintain Fine Pointing Stability",
+        "REQ - Reject Platform Jitter and Beam Wander"
+      ],
+      "justified_by": [
+        "PHYS - Atmospheric Turbulence and Beam Wander",
+        "PHYS - Pointing Error and Optical Link Margin"
+      ],
+      "implemented_by": [
+        "COMP - Candidate Fast Steering Mirror"
+      ],
+      "depends_on": [
+        "DD - Separate Coarse and Fine Pointing Loops"
+      ],
+      "references": [
+        "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+      ]
+    },
+    "wikilinks": [
+      "REQ - Reject Platform Jitter and Beam Wander",
+      "PHYS - Atmospheric Turbulence and Beam Wander",
+      "PHYS - Pointing Error and Optical Link Margin",
+      "COMP - Candidate Fast Steering Mirror",
+      "COMP - Candidate Tracking Camera",
+      "REQ - Maintain Fine Pointing Stability",
+      "DD - Separate Coarse and Fine Pointing Loops",
+      "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-set-fsm-bandwidth-target-near-400-hz-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "Set the fast steering mirror control bandwidth target near 400 Hz as a representative design target for correcting residual pointing disturbances after coarse tracking.",
+        "searchText": "Summary\nSet the fast steering mirror control bandwidth target near 400 Hz as a representative design target for correcting residual pointing disturbances after coarse tracking."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-set-fsm-bandwidth-target-near-400-hz-md-section-1",
+        "heading": "Context",
+        "level": 2,
+        "content": "The assessment prompt specifically asks why the fine pointing mirror needs 400 Hz bandwidth. This note treats 400 Hz as a design target that must be validated against measured disturbance spectra, actuator resonance, and closed-loop stability limits.",
+        "searchText": "Context\nThe assessment prompt specifically asks why the fine pointing mirror needs 400 Hz bandwidth. This note treats 400 Hz as a design target that must be validated against measured disturbance spectra, actuator resonance, and closed-loop stability limits."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-set-fsm-bandwidth-target-near-400-hz-md-section-2",
+        "heading": "Decision",
+        "level": 2,
+        "content": "Use an FSM bandwidth target near 400 Hz for the fine pointing control loop, subject to validation through testing.",
+        "searchText": "Decision\nUse an FSM bandwidth target near 400 Hz for the fine pointing control loop, subject to validation through testing."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-set-fsm-bandwidth-target-near-400-hz-md-section-3",
+        "heading": "Alternatives Considered",
+        "level": 2,
+        "content": "- Coarse mount only\n- Low-bandwidth FSM\n- Higher-bandwidth FSM\n- Adaptive optics-first correction",
+        "searchText": "Alternatives Considered\n- Coarse mount only\n- Low-bandwidth FSM\n- Higher-bandwidth FSM\n- Adaptive optics-first correction"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-set-fsm-bandwidth-target-near-400-hz-md-section-4",
+        "heading": "Trade-offs",
+        "level": 2,
+        "content": "A higher bandwidth target can improve disturbance rejection, but it increases actuator cost, control complexity, noise sensitivity, and the risk of exciting mechanical resonances. A lower bandwidth design may be cheaper and simpler but may not reject enough pointing disturbance.",
+        "searchText": "Trade-offs\nA higher bandwidth target can improve disturbance rejection, but it increases actuator cost, control complexity, noise sensitivity, and the risk of exciting mechanical resonances. A lower bandwidth design may be cheaper and simpler but may not reject enough pointing disturbance."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-set-fsm-bandwidth-target-near-400-hz-md-section-5",
+        "heading": "Physics Rationale",
+        "level": 2,
+        "content": "This decision derives from [[REQ - Reject Platform Jitter and Beam Wander]] and is justified by [[PHYS - Atmospheric Turbulence and Beam Wander]] and [[PHYS - Pointing Error and Optical Link Margin]].",
+        "searchText": "Physics Rationale\nThis decision derives from [[REQ - Reject Platform Jitter and Beam Wander]] and is justified by [[PHYS - Atmospheric Turbulence and Beam Wander]] and [[PHYS - Pointing Error and Optical Link Margin]]."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-set-fsm-bandwidth-target-near-400-hz-md-section-6",
+        "heading": "Implementation",
+        "level": 2,
+        "content": "The decision is implemented through [[COMP - Candidate Fast Steering Mirror]] and depends on the tracking sensor described in [[COMP - Candidate Tracking Camera]].",
+        "searchText": "Implementation\nThe decision is implemented through [[COMP - Candidate Fast Steering Mirror]] and depends on the tracking sensor described in [[COMP - Candidate Tracking Camera]]."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-set-fsm-bandwidth-target-near-400-hz-md-section-7",
+        "heading": "Testing and Validation",
+        "level": 2,
+        "content": "The 400 Hz target should be tested using disturbance injection and closed-loop tracking measurements. It should not be treated as final until site and hardware data confirm the required correction bandwidth.",
+        "searchText": "Testing and Validation\nThe 400 Hz target should be tested using disturbance injection and closed-loop tracking measurements. It should not be treated as final until site and hardware data confirm the required correction bandwidth."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-set-fsm-bandwidth-target-near-400-hz-md-section-8",
+        "heading": "Open Questions",
+        "level": 2,
+        "content": "- What is the actual disturbance spectrum at the ground station site?\n- What resonance limits does the selected FSM introduce?\n- Is 400 Hz necessary for the first prototype or only for later customer-grade operation?",
+        "searchText": "Open Questions\n- What is the actual disturbance spectrum at the ground station site?\n- What resonance limits does the selected FSM introduce?\n- Is 400 Hz necessary for the first prototype or only for later customer-grade operation?"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-dd-set-fsm-bandwidth-target-near-400-hz-md-section-9",
+        "heading": "Links",
+        "level": 2,
+        "content": "- derives-from: [[REQ - Maintain Fine Pointing Stability]], [[REQ - Reject Platform Jitter and Beam Wander]]\n- justified-by: [[PHYS - Atmospheric Turbulence and Beam Wander]], [[PHYS - Pointing Error and Optical Link Margin]]\n- implemented-by: [[COMP - Candidate Fast Steering Mirror]]\n- depends-on: [[DD - Separate Coarse and Fine Pointing Loops]]\n- tested-by: disturbance rejection test",
+        "searchText": "Links\n- derives-from: [[REQ - Maintain Fine Pointing Stability]], [[REQ - Reject Platform Jitter and Beam Wander]]\n- justified-by: [[PHYS - Atmospheric Turbulence and Beam Wander]], [[PHYS - Pointing Error and Optical Link Margin]]\n- implemented-by: [[COMP - Candidate Fast Steering Mirror]]\n- depends-on: [[DD - Separate Coarse and Fine Pointing Loops]]\n- tested-by: disturbance rejection test"
+      }
+    ],
+    "summaryText": "Set the fast steering mirror control bandwidth target near 400 Hz as a representative design target for correcting residual pointing disturbances after coarse tracking.",
+    "fullText": "Summary Set the fast steering mirror control bandwidth target near 400 Hz as a representative design target for correcting residual pointing disturbances after coarse tracking. Context The assessment prompt specifically asks why the fine pointing mirror needs 400 Hz bandwidth. This note treats 400 Hz as a design target that must be validated against measured disturbance spectra, actuator resonance, and closed-loop stability limits. Decision Use an FSM bandwidth target near 400 Hz for the fine pointing control loop, subject to validation through testing. Alternatives Considered - Coarse mount only - Low-bandwidth FSM - Higher-bandwidth FSM - Adaptive optics-first correction Trade-offs A higher bandwidth target can improve disturbance rejection, but it increases actuator cost, control complexity, noise sensitivity, and the risk of exciting mechanical resonances. A lower bandwidth design may be cheaper and simpler but may not reject enough pointing disturbance. Physics Rationale This decision derives from [[REQ - Reject Platform Jitter and Beam Wander]] and is justified by [[PHYS - Atmospheric Turbulence and Beam Wander]] and [[PHYS - Pointing Error and Optical Link Margin]]. Implementation The decision is implemented through [[COMP - Candidate Fast Steering Mirror]] and depends on the tracking sensor described in [[COMP - Candidate Tracking Camera]]. Testing and Validation The 400 Hz target should be tested using disturbance injection and closed-loop tracking measurements. It should not be treated as final until site and hardware data confirm the required correction bandwidth. Open Questions - What is the actual disturbance spectrum at the ground station site? - What resonance limits does the selected FSM introduce? - Is 400 Hz necessary for the first prototype or only for later customer-grade operation? Links - derives-from: [[REQ - Maintain Fine Pointing Stability]], [[REQ - Reject Platform Jitter and Beam Wander]] - justified-by: [[PHYS - Atmospheric Turbulence and Beam Wander]], [[PHYS - Pointing Error and Optical Link Margin]] - implemented-by: [[COMP - Candidate Fast Steering Mirror]] - depends-on: [[DD - Separate Coarse and Fine Pointing Loops]] - tested-by: disturbance rejection test"
+  },
+  {
+    "id": "wiki-fine-pointing-and-tracking-phys-atmospheric-turbulence-and-beam-wander-md",
+    "slug": "phys-atmospheric-turbulence-and-beam-wander",
+    "title": "PHYS - Atmospheric Turbulence and Beam Wander",
+    "path": "wiki/fine-pointing-and-tracking/PHYS - Atmospheric Turbulence and Beam Wander.md",
+    "folder": "wiki/fine-pointing-and-tracking",
+    "subsystem": "fine-pointing-and-tracking",
+    "type": "physics_concept",
+    "status": "reviewed",
+    "owner": "controls-and-optics",
+    "frontmatter": {
+      "type": "physics_concept",
+      "status": "reviewed",
+      "concept_area": "atmospheric-optics",
+      "owner": "controls-and-optics",
+      "explains": [
+        "[[REQ - Reject Platform Jitter and Beam Wander]]"
+      ],
+      "justifies": [
+        "[[DD - Set FSM Bandwidth Target Near 400 Hz]]"
+      ],
+      "references": [
+        "[[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "explains": [
+        "REQ - Reject Platform Jitter and Beam Wander"
+      ],
+      "justifies": [
+        "DD - Set FSM Bandwidth Target Near 400 Hz"
+      ],
+      "references": [
+        "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+      ]
+    },
+    "wikilinks": [
+      "REQ - Reject Platform Jitter and Beam Wander",
+      "REQ - Maintain Fine Pointing Stability",
+      "DD - Set FSM Bandwidth Target Near 400 Hz",
+      "DD - Separate Coarse and Fine Pointing Loops",
+      "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-atmospheric-turbulence-and-beam-wander-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "Atmospheric turbulence can disturb the received optical beam, causing motion, scintillation, and wavefront distortion at the receiver.",
+        "searchText": "Summary\nAtmospheric turbulence can disturb the received optical beam, causing motion, scintillation, and wavefront distortion at the receiver."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-atmospheric-turbulence-and-beam-wander-md-section-1",
+        "heading": "Concept Explanation",
+        "level": 2,
+        "content": "As an optical signal passes through the atmosphere, variations in refractive index can disturb the beam. One practical effect for ground-station design is beam wander, where the apparent beam position moves at the receiver plane. This can reduce coupling efficiency and link stability.",
+        "searchText": "Concept Explanation\nAs an optical signal passes through the atmosphere, variations in refractive index can disturb the beam. One practical effect for ground-station design is beam wander, where the apparent beam position moves at the receiver plane. This can reduce coupling efficiency and link stability."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-atmospheric-turbulence-and-beam-wander-md-section-2",
+        "heading": "Why It Matters for QOSMIC",
+        "level": 2,
+        "content": "A LEO optical link already has tight pointing requirements. Atmospheric beam motion adds another dynamic disturbance that the ground station must tolerate or correct. This is one reason the fine pointing loop cannot be treated as optional.",
+        "searchText": "Why It Matters for QOSMIC\nA LEO optical link already has tight pointing requirements. Atmospheric beam motion adds another dynamic disturbance that the ground station must tolerate or correct. This is one reason the fine pointing loop cannot be treated as optional."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-atmospheric-turbulence-and-beam-wander-md-section-3",
+        "heading": "Design Implications",
+        "level": 2,
+        "content": "- Site-specific turbulence measurements matter.\n- Fine pointing requirements should be derived from measured disturbance spectra.\n- Adaptive optics may be relevant later, but early systems still need fast pointing correction.\n- The FSM bandwidth target should be validated, not treated as fixed forever.",
+        "searchText": "Design Implications\n- Site-specific turbulence measurements matter.\n- Fine pointing requirements should be derived from measured disturbance spectra.\n- Adaptive optics may be relevant later, but early systems still need fast pointing correction.\n- The FSM bandwidth target should be validated, not treated as fixed forever."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-atmospheric-turbulence-and-beam-wander-md-section-4",
+        "heading": "Related Requirements",
+        "level": 2,
+        "content": "- [[REQ - Reject Platform Jitter and Beam Wander]]\n- [[REQ - Maintain Fine Pointing Stability]]",
+        "searchText": "Related Requirements\n- [[REQ - Reject Platform Jitter and Beam Wander]]\n- [[REQ - Maintain Fine Pointing Stability]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-atmospheric-turbulence-and-beam-wander-md-section-5",
+        "heading": "Related Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]",
+        "searchText": "Related Design Decisions\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-atmospheric-turbulence-and-beam-wander-md-section-6",
+        "heading": "References",
+        "level": 2,
+        "content": "- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]",
+        "searchText": "References\n- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      }
+    ],
+    "summaryText": "Atmospheric turbulence can disturb the received optical beam, causing motion, scintillation, and wavefront distortion at the receiver.",
+    "fullText": "Summary Atmospheric turbulence can disturb the received optical beam, causing motion, scintillation, and wavefront distortion at the receiver. Concept Explanation As an optical signal passes through the atmosphere, variations in refractive index can disturb the beam. One practical effect for ground-station design is beam wander, where the apparent beam position moves at the receiver plane. This can reduce coupling efficiency and link stability. Why It Matters for QOSMIC A LEO optical link already has tight pointing requirements. Atmospheric beam motion adds another dynamic disturbance that the ground station must tolerate or correct. This is one reason the fine pointing loop cannot be treated as optional. Design Implications - Site-specific turbulence measurements matter. - Fine pointing requirements should be derived from measured disturbance spectra. - Adaptive optics may be relevant later, but early systems still need fast pointing correction. - The FSM bandwidth target should be validated, not treated as fixed forever. Related Requirements - [[REQ - Reject Platform Jitter and Beam Wander]] - [[REQ - Maintain Fine Pointing Stability]] Related Design Decisions - [[DD - Set FSM Bandwidth Target Near 400 Hz]] - [[DD - Separate Coarse and Fine Pointing Loops]] References - [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+  },
+  {
+    "id": "wiki-fine-pointing-and-tracking-phys-pointing-error-and-optical-link-margin-md",
+    "slug": "phys-pointing-error-and-optical-link-margin",
+    "title": "PHYS - Pointing Error and Optical Link Margin",
+    "path": "wiki/fine-pointing-and-tracking/PHYS - Pointing Error and Optical Link Margin.md",
+    "folder": "wiki/fine-pointing-and-tracking",
+    "subsystem": "fine-pointing-and-tracking",
+    "type": "physics_concept",
+    "status": "reviewed",
+    "owner": "controls-and-optics",
+    "frontmatter": {
+      "type": "physics_concept",
+      "status": "reviewed",
+      "concept_area": "pointing-and-link-margin",
+      "owner": "controls-and-optics",
+      "explains": [
+        "[[REQ - Maintain Fine Pointing Stability]]"
+      ],
+      "justifies": [
+        "[[DD - Separate Coarse and Fine Pointing Loops]]",
+        "[[DD - Set FSM Bandwidth Target Near 400 Hz]]"
+      ],
+      "references": [
+        "[[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "explains": [
+        "REQ - Maintain Fine Pointing Stability"
+      ],
+      "justifies": [
+        "DD - Separate Coarse and Fine Pointing Loops",
+        "DD - Set FSM Bandwidth Target Near 400 Hz"
+      ],
+      "references": [
+        "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+      ]
+    },
+    "wikilinks": [
+      "REQ - Maintain Fine Pointing Stability",
+      "REQ - Reject Platform Jitter and Beam Wander",
+      "DD - Separate Coarse and Fine Pointing Loops",
+      "DD - Set FSM Bandwidth Target Near 400 Hz",
+      "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-pointing-error-and-optical-link-margin-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "Pointing error reduces the useful optical power delivered to the receiver and can directly reduce communication reliability.",
+        "searchText": "Summary\nPointing error reduces the useful optical power delivered to the receiver and can directly reduce communication reliability."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-pointing-error-and-optical-link-margin-md-section-1",
+        "heading": "Concept Explanation",
+        "level": 2,
+        "content": "In an optical downlink, the received beam must remain aligned with the telescope and receiver path. Even small angular errors can reduce signal strength, especially when the receiver architecture has narrow coupling tolerances.",
+        "searchText": "Concept Explanation\nIn an optical downlink, the received beam must remain aligned with the telescope and receiver path. Even small angular errors can reduce signal strength, especially when the receiver architecture has narrow coupling tolerances."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-pointing-error-and-optical-link-margin-md-section-2",
+        "heading": "Why It Matters for QOSMIC",
+        "level": 2,
+        "content": "The link budget is not only an optical-power calculation. It must include pointing loss, coupling loss, atmospheric effects, and tracking performance. This creates a direct relationship between control-system performance and commercial service reliability.",
+        "searchText": "Why It Matters for QOSMIC\nThe link budget is not only an optical-power calculation. It must include pointing loss, coupling loss, atmospheric effects, and tracking performance. This creates a direct relationship between control-system performance and commercial service reliability."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-pointing-error-and-optical-link-margin-md-section-3",
+        "heading": "Design Implications",
+        "level": 2,
+        "content": "- Pointing error must be part of the link budget.\n- Coarse and fine tracking should be modelled separately.\n- FSM bandwidth should be justified by disturbance rejection needs.\n- Receiver architecture and pointing architecture must be co-designed.",
+        "searchText": "Design Implications\n- Pointing error must be part of the link budget.\n- Coarse and fine tracking should be modelled separately.\n- FSM bandwidth should be justified by disturbance rejection needs.\n- Receiver architecture and pointing architecture must be co-designed."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-pointing-error-and-optical-link-margin-md-section-4",
+        "heading": "Related Requirements",
+        "level": 2,
+        "content": "- [[REQ - Maintain Fine Pointing Stability]]\n- [[REQ - Reject Platform Jitter and Beam Wander]]",
+        "searchText": "Related Requirements\n- [[REQ - Maintain Fine Pointing Stability]]\n- [[REQ - Reject Platform Jitter and Beam Wander]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-pointing-error-and-optical-link-margin-md-section-5",
+        "heading": "Related Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]",
+        "searchText": "Related Design Decisions\n- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-phys-pointing-error-and-optical-link-margin-md-section-6",
+        "heading": "References",
+        "level": 2,
+        "content": "- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]",
+        "searchText": "References\n- [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      }
+    ],
+    "summaryText": "Pointing error reduces the useful optical power delivered to the receiver and can directly reduce communication reliability.",
+    "fullText": "Summary Pointing error reduces the useful optical power delivered to the receiver and can directly reduce communication reliability. Concept Explanation In an optical downlink, the received beam must remain aligned with the telescope and receiver path. Even small angular errors can reduce signal strength, especially when the receiver architecture has narrow coupling tolerances. Why It Matters for QOSMIC The link budget is not only an optical-power calculation. It must include pointing loss, coupling loss, atmospheric effects, and tracking performance. This creates a direct relationship between control-system performance and commercial service reliability. Design Implications - Pointing error must be part of the link budget. - Coarse and fine tracking should be modelled separately. - FSM bandwidth should be justified by disturbance rejection needs. - Receiver architecture and pointing architecture must be co-designed. Related Requirements - [[REQ - Maintain Fine Pointing Stability]] - [[REQ - Reject Platform Jitter and Beam Wander]] Related Design Decisions - [[DD - Separate Coarse and Fine Pointing Loops]] - [[DD - Set FSM Bandwidth Target Near 400 Hz]] References - [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+  },
+  {
+    "id": "wiki-fine-pointing-and-tracking-ref-adaptive-optics-and-atmospheric-turbulence-literature-md",
+    "slug": "ref-adaptive-optics-and-atmospheric-turbulence-literature",
+    "title": "REF - Adaptive Optics and Atmospheric Turbulence Literature",
+    "path": "wiki/fine-pointing-and-tracking/REF - Adaptive Optics and Atmospheric Turbulence Literature.md",
+    "folder": "wiki/fine-pointing-and-tracking",
+    "subsystem": "fine-pointing-and-tracking",
+    "type": "reference",
+    "status": "reviewed",
+    "frontmatter": {
+      "type": "reference",
+      "status": "reviewed",
+      "source_type": "literature-review",
+      "authors": "multiple",
+      "year": "mixed",
+      "url": "TBD",
+      "supports": [
+        "[[SUBSYS - Fine Pointing and Tracking]]",
+        "[[DD - Set FSM Bandwidth Target Near 400 Hz]]",
+        "[[DD - Separate Coarse and Fine Pointing Loops]]"
+      ],
+      "related_notes": [
+        "[[PHYS - Atmospheric Turbulence and Beam Wander]]",
+        "[[PHYS - Pointing Error and Optical Link Margin]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "supports": [
+        "SUBSYS - Fine Pointing and Tracking",
+        "DD - Set FSM Bandwidth Target Near 400 Hz",
+        "DD - Separate Coarse and Fine Pointing Loops"
+      ],
+      "related_notes": [
+        "PHYS - Atmospheric Turbulence and Beam Wander",
+        "PHYS - Pointing Error and Optical Link Margin"
+      ]
+    },
+    "wikilinks": [
+      "SUBSYS - Fine Pointing and Tracking",
+      "DD - Separate Coarse and Fine Pointing Loops",
+      "DD - Set FSM Bandwidth Target Near 400 Hz",
+      "PHYS - Atmospheric Turbulence and Beam Wander",
+      "PHYS - Pointing Error and Optical Link Margin"
+    ],
+    "sections": [
+      {
+        "id": "wiki-fine-pointing-and-tracking-ref-adaptive-optics-and-atmospheric-turbulence-literature-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "This reference note represents the body of literature on atmospheric turbulence, adaptive optics, beam wander, and fine pointing control relevant to optical ground stations.",
+        "searchText": "Summary\nThis reference note represents the body of literature on atmospheric turbulence, adaptive optics, beam wander, and fine pointing control relevant to optical ground stations."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-ref-adaptive-optics-and-atmospheric-turbulence-literature-md-section-1",
+        "heading": "Key Takeaways",
+        "level": 2,
+        "content": "- Atmospheric turbulence can disturb optical links through beam wander, scintillation, and wavefront distortion.\n- Fine pointing is needed when residual pointing errors exceed the receiver’s tolerance.\n- FSM bandwidth should be derived from measured disturbance spectra, not selected arbitrarily.\n- Adaptive optics and fine pointing are related but not identical correction layers.",
+        "searchText": "Key Takeaways\n- Atmospheric turbulence can disturb optical links through beam wander, scintillation, and wavefront distortion.\n- Fine pointing is needed when residual pointing errors exceed the receiver’s tolerance.\n- FSM bandwidth should be derived from measured disturbance spectra, not selected arbitrarily.\n- Adaptive optics and fine pointing are related but not identical correction layers."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-ref-adaptive-optics-and-atmospheric-turbulence-literature-md-section-2",
+        "heading": "Relevance to QOSMIC",
+        "level": 2,
+        "content": "This literature supports the fine pointing and tracking subsystem of the sample vault. It helps explain why the system may require separate coarse and fine tracking loops and why a high-bandwidth FSM may be needed.",
+        "searchText": "Relevance to QOSMIC\nThis literature supports the fine pointing and tracking subsystem of the sample vault. It helps explain why the system may require separate coarse and fine tracking loops and why a high-bandwidth FSM may be needed."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-ref-adaptive-optics-and-atmospheric-turbulence-literature-md-section-3",
+        "heading": "Supports These Notes",
+        "level": 2,
+        "content": "- [[SUBSYS - Fine Pointing and Tracking]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n- [[PHYS - Atmospheric Turbulence and Beam Wander]]\n- [[PHYS - Pointing Error and Optical Link Margin]]",
+        "searchText": "Supports These Notes\n- [[SUBSYS - Fine Pointing and Tracking]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n- [[PHYS - Atmospheric Turbulence and Beam Wander]]\n- [[PHYS - Pointing Error and Optical Link Margin]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-ref-adaptive-optics-and-atmospheric-turbulence-literature-md-section-4",
+        "heading": "Limitations",
+        "level": 2,
+        "content": "This note is a placeholder for prototype purposes. A production vault should link to specific QOSMIC measurements, vendor datasheets, control simulations, and site-characterization reports.",
+        "searchText": "Limitations\nThis note is a placeholder for prototype purposes. A production vault should link to specific QOSMIC measurements, vendor datasheets, control simulations, and site-characterization reports."
+      }
+    ],
+    "summaryText": "This reference note represents the body of literature on atmospheric turbulence, adaptive optics, beam wander, and fine pointing control relevant to optical ground stations.",
+    "fullText": "Summary This reference note represents the body of literature on atmospheric turbulence, adaptive optics, beam wander, and fine pointing control relevant to optical ground stations. Key Takeaways - Atmospheric turbulence can disturb optical links through beam wander, scintillation, and wavefront distortion. - Fine pointing is needed when residual pointing errors exceed the receiver’s tolerance. - FSM bandwidth should be derived from measured disturbance spectra, not selected arbitrarily. - Adaptive optics and fine pointing are related but not identical correction layers. Relevance to QOSMIC This literature supports the fine pointing and tracking subsystem of the sample vault. It helps explain why the system may require separate coarse and fine tracking loops and why a high-bandwidth FSM may be needed. Supports These Notes - [[SUBSYS - Fine Pointing and Tracking]] - [[DD - Separate Coarse and Fine Pointing Loops]] - [[DD - Set FSM Bandwidth Target Near 400 Hz]] - [[PHYS - Atmospheric Turbulence and Beam Wander]] - [[PHYS - Pointing Error and Optical Link Margin]] Limitations This note is a placeholder for prototype purposes. A production vault should link to specific QOSMIC measurements, vendor datasheets, control simulations, and site-characterization reports."
+  },
+  {
+    "id": "wiki-fine-pointing-and-tracking-req-maintain-fine-pointing-stability-md",
+    "slug": "req-maintain-fine-pointing-stability",
+    "title": "REQ - Maintain Fine Pointing Stability",
+    "path": "wiki/fine-pointing-and-tracking/REQ - Maintain Fine Pointing Stability.md",
+    "folder": "wiki/fine-pointing-and-tracking",
+    "subsystem": "fine-pointing-and-tracking",
+    "type": "requirement",
+    "status": "canonical",
+    "owner": "controls-and-optics",
+    "frontmatter": {
+      "type": "requirement",
+      "status": "canonical",
+      "requirement_id": "REQ-FPT-001",
+      "priority": "high",
+      "owner": "controls-and-optics",
+      "verification_method": "closed-loop pointing stability test",
+      "source": "optical link margin requirement",
+      "derived_decisions": [
+        "[[DD - Separate Coarse and Fine Pointing Loops]]",
+        "[[DD - Set FSM Bandwidth Target Near 400 Hz]]"
+      ],
+      "tested_by": [
+        "closed-loop pointing stability test"
+      ]
+    },
+    "frontmatterLinks": {
+      "derived_decisions": [
+        "DD - Separate Coarse and Fine Pointing Loops",
+        "DD - Set FSM Bandwidth Target Near 400 Hz"
+      ]
+    },
+    "wikilinks": [
+      "DD - Separate Coarse and Fine Pointing Loops",
+      "DD - Set FSM Bandwidth Target Near 400 Hz"
+    ],
+    "sections": [
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-maintain-fine-pointing-stability-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "The ground station must maintain fine pointing stability so the received optical beam remains aligned with the receiver path.",
+        "searchText": "Summary\nThe ground station must maintain fine pointing stability so the received optical beam remains aligned with the receiver path."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-maintain-fine-pointing-stability-md-section-1",
+        "heading": "Requirement Statement",
+        "level": 2,
+        "content": "The fine pointing system should correct residual pointing errors that remain after coarse telescope tracking.",
+        "searchText": "Requirement Statement\nThe fine pointing system should correct residual pointing errors that remain after coarse telescope tracking."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-maintain-fine-pointing-stability-md-section-2",
+        "heading": "Why This Requirement Exists",
+        "level": 2,
+        "content": "Optical links are sensitive to angular pointing error. Small errors can reduce collected power, lower fiber coupling efficiency, and reduce link margin. The telescope may collect light, but the receiver may still lose usable signal if the beam is not held accurately.",
+        "searchText": "Why This Requirement Exists\nOptical links are sensitive to angular pointing error. Small errors can reduce collected power, lower fiber coupling efficiency, and reduce link margin. The telescope may collect light, but the receiver may still lose usable signal if the beam is not held accurately."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-maintain-fine-pointing-stability-md-section-3",
+        "heading": "Acceptance Criteria",
+        "level": 2,
+        "content": "- Residual pointing error remains within the optical receiver’s tolerance.\n- The control loop remains stable during representative tracking profiles.\n- Pointing performance is logged during each pass.\n- Loss of lock is detected and reported.",
+        "searchText": "Acceptance Criteria\n- Residual pointing error remains within the optical receiver’s tolerance.\n- The control loop remains stable during representative tracking profiles.\n- Pointing performance is logged during each pass.\n- Loss of lock is detected and reported."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-maintain-fine-pointing-stability-md-section-4",
+        "heading": "Verification Method",
+        "level": 2,
+        "content": "Closed-loop pointing stability test using representative disturbance inputs.",
+        "searchText": "Verification Method\nClosed-loop pointing stability test using representative disturbance inputs."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-maintain-fine-pointing-stability-md-section-5",
+        "heading": "Related Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]",
+        "searchText": "Related Design Decisions\n- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-maintain-fine-pointing-stability-md-section-6",
+        "heading": "Open Questions",
+        "level": 2,
+        "content": "- What measured pointing error threshold is acceptable for the selected receiver architecture?\n- What part of the pointing error budget is allocated to the FSM?",
+        "searchText": "Open Questions\n- What measured pointing error threshold is acceptable for the selected receiver architecture?\n- What part of the pointing error budget is allocated to the FSM?"
+      }
+    ],
+    "summaryText": "The ground station must maintain fine pointing stability so the received optical beam remains aligned with the receiver path.",
+    "fullText": "Summary The ground station must maintain fine pointing stability so the received optical beam remains aligned with the receiver path. Requirement Statement The fine pointing system should correct residual pointing errors that remain after coarse telescope tracking. Why This Requirement Exists Optical links are sensitive to angular pointing error. Small errors can reduce collected power, lower fiber coupling efficiency, and reduce link margin. The telescope may collect light, but the receiver may still lose usable signal if the beam is not held accurately. Acceptance Criteria - Residual pointing error remains within the optical receiver’s tolerance. - The control loop remains stable during representative tracking profiles. - Pointing performance is logged during each pass. - Loss of lock is detected and reported. Verification Method Closed-loop pointing stability test using representative disturbance inputs. Related Design Decisions - [[DD - Separate Coarse and Fine Pointing Loops]] - [[DD - Set FSM Bandwidth Target Near 400 Hz]] Open Questions - What measured pointing error threshold is acceptable for the selected receiver architecture? - What part of the pointing error budget is allocated to the FSM?"
+  },
+  {
+    "id": "wiki-fine-pointing-and-tracking-req-reject-platform-jitter-and-beam-wander-md",
+    "slug": "req-reject-platform-jitter-and-beam-wander",
+    "title": "REQ - Reject Platform Jitter and Beam Wander",
+    "path": "wiki/fine-pointing-and-tracking/REQ - Reject Platform Jitter and Beam Wander.md",
+    "folder": "wiki/fine-pointing-and-tracking",
+    "subsystem": "fine-pointing-and-tracking",
+    "type": "requirement",
+    "status": "canonical",
+    "owner": "controls-and-optics",
+    "frontmatter": {
+      "type": "requirement",
+      "status": "canonical",
+      "requirement_id": "REQ-FPT-002",
+      "priority": "medium",
+      "owner": "controls-and-optics",
+      "verification_method": "disturbance rejection test",
+      "source": "site and mount disturbance assumptions",
+      "derived_decisions": [
+        "[[DD - Set FSM Bandwidth Target Near 400 Hz]]"
+      ],
+      "tested_by": [
+        "disturbance rejection test"
+      ]
+    },
+    "frontmatterLinks": {
+      "derived_decisions": [
+        "DD - Set FSM Bandwidth Target Near 400 Hz"
+      ]
+    },
+    "wikilinks": [
+      "DD - Set FSM Bandwidth Target Near 400 Hz",
+      "DD - Separate Coarse and Fine Pointing Loops"
+    ],
+    "sections": [
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-reject-platform-jitter-and-beam-wander-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "The fine pointing system must reject higher-frequency disturbances that cannot be adequately corrected by the coarse telescope mount.",
+        "searchText": "Summary\nThe fine pointing system must reject higher-frequency disturbances that cannot be adequately corrected by the coarse telescope mount."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-reject-platform-jitter-and-beam-wander-md-section-1",
+        "heading": "Requirement Statement",
+        "level": 2,
+        "content": "The system should reduce the effect of residual mount jitter, vibration, and atmospheric beam wander on the receiver path.",
+        "searchText": "Requirement Statement\nThe system should reduce the effect of residual mount jitter, vibration, and atmospheric beam wander on the receiver path."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-reject-platform-jitter-and-beam-wander-md-section-2",
+        "heading": "Why This Requirement Exists",
+        "level": 2,
+        "content": "A large telescope mount is suitable for coarse tracking but not for fast small-angle corrections. A separate fast correction stage is needed when disturbances occur faster than the mount can respond.",
+        "searchText": "Why This Requirement Exists\nA large telescope mount is suitable for coarse tracking but not for fast small-angle corrections. A separate fast correction stage is needed when disturbances occur faster than the mount can respond."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-reject-platform-jitter-and-beam-wander-md-section-3",
+        "heading": "Acceptance Criteria",
+        "level": 2,
+        "content": "- Disturbance rejection is demonstrated over the relevant frequency range.\n- The control system avoids exciting actuator or structural resonances.\n- Performance is validated against measured site and mount disturbance spectra.",
+        "searchText": "Acceptance Criteria\n- Disturbance rejection is demonstrated over the relevant frequency range.\n- The control system avoids exciting actuator or structural resonances.\n- Performance is validated against measured site and mount disturbance spectra."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-reject-platform-jitter-and-beam-wander-md-section-4",
+        "heading": "Verification Method",
+        "level": 2,
+        "content": "Disturbance injection and closed-loop rejection testing.",
+        "searchText": "Verification Method\nDisturbance injection and closed-loop rejection testing."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-reject-platform-jitter-and-beam-wander-md-section-5",
+        "heading": "Related Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]",
+        "searchText": "Related Design Decisions\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-req-reject-platform-jitter-and-beam-wander-md-section-6",
+        "heading": "Open Questions",
+        "level": 2,
+        "content": "- Which disturbance frequencies dominate at the chosen site?\n- How much of the correction burden should fall on the FSM versus software filtering?",
+        "searchText": "Open Questions\n- Which disturbance frequencies dominate at the chosen site?\n- How much of the correction burden should fall on the FSM versus software filtering?"
+      }
+    ],
+    "summaryText": "The fine pointing system must reject higher-frequency disturbances that cannot be adequately corrected by the coarse telescope mount.",
+    "fullText": "Summary The fine pointing system must reject higher-frequency disturbances that cannot be adequately corrected by the coarse telescope mount. Requirement Statement The system should reduce the effect of residual mount jitter, vibration, and atmospheric beam wander on the receiver path. Why This Requirement Exists A large telescope mount is suitable for coarse tracking but not for fast small-angle corrections. A separate fast correction stage is needed when disturbances occur faster than the mount can respond. Acceptance Criteria - Disturbance rejection is demonstrated over the relevant frequency range. - The control system avoids exciting actuator or structural resonances. - Performance is validated against measured site and mount disturbance spectra. Verification Method Disturbance injection and closed-loop rejection testing. Related Design Decisions - [[DD - Set FSM Bandwidth Target Near 400 Hz]] - [[DD - Separate Coarse and Fine Pointing Loops]] Open Questions - Which disturbance frequencies dominate at the chosen site? - How much of the correction burden should fall on the FSM versus software filtering?"
+  },
+  {
+    "id": "wiki-fine-pointing-and-tracking-subsys-fine-pointing-and-tracking-md",
+    "slug": "subsys-fine-pointing-and-tracking",
+    "title": "SUBSYS - Fine Pointing and Tracking",
+    "path": "wiki/fine-pointing-and-tracking/SUBSYS - Fine Pointing and Tracking.md",
+    "folder": "wiki/fine-pointing-and-tracking",
+    "subsystem": "fine-pointing-and-tracking",
+    "type": "subsystem",
+    "status": "canonical",
+    "owner": "controls-and-optics",
+    "frontmatter": {
+      "type": "subsystem",
+      "status": "canonical",
+      "owner": "controls-and-optics",
+      "last_reviewed": "2026-01-15T00:00:00.000Z",
+      "related_requirements": [
+        "[[REQ - Maintain Fine Pointing Stability]]",
+        "[[REQ - Reject Platform Jitter and Beam Wander]]"
+      ],
+      "related_design_decisions": [
+        "[[DD - Separate Coarse and Fine Pointing Loops]]",
+        "[[DD - Set FSM Bandwidth Target Near 400 Hz]]"
+      ],
+      "related_components": [
+        "[[COMP - Candidate Fast Steering Mirror]]",
+        "[[COMP - Candidate Tracking Camera]]"
+      ],
+      "related_physics": [
+        "[[PHYS - Atmospheric Turbulence and Beam Wander]]",
+        "[[PHYS - Pointing Error and Optical Link Margin]]"
+      ],
+      "references": [
+        "[[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "related_requirements": [
+        "REQ - Maintain Fine Pointing Stability",
+        "REQ - Reject Platform Jitter and Beam Wander"
+      ],
+      "related_design_decisions": [
+        "DD - Separate Coarse and Fine Pointing Loops",
+        "DD - Set FSM Bandwidth Target Near 400 Hz"
+      ],
+      "related_components": [
+        "COMP - Candidate Fast Steering Mirror",
+        "COMP - Candidate Tracking Camera"
+      ],
+      "related_physics": [
+        "PHYS - Atmospheric Turbulence and Beam Wander",
+        "PHYS - Pointing Error and Optical Link Margin"
+      ],
+      "references": [
+        "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+      ]
+    },
+    "wikilinks": [
+      "SUBSYS - Telescope and Optical Receiver",
+      "REQ - Maintain Fine Pointing Stability",
+      "REQ - Reject Platform Jitter and Beam Wander",
+      "PHYS - Atmospheric Turbulence and Beam Wander",
+      "PHYS - Pointing Error and Optical Link Margin",
+      "DD - Separate Coarse and Fine Pointing Loops",
+      "DD - Set FSM Bandwidth Target Near 400 Hz",
+      "COMP - Candidate Fast Steering Mirror",
+      "COMP - Candidate Tracking Camera",
+      "REF - Adaptive Optics and Atmospheric Turbulence Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-fine-pointing-and-tracking-subsys-fine-pointing-and-tracking-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "The fine pointing and tracking subsystem keeps the incoming optical beam aligned with the receiver path during a LEO satellite pass. It works alongside the coarse telescope mount but corrects faster residual disturbances that the large mount cannot handle alone.\n\nThis subsystem is critical because optical communication links are highly sensitive to pointing error. Even if the telescope collects enough light, poor pointing can reduce coupling efficiency and damage the link margin.",
+        "searchText": "Summary\nThe fine pointing and tracking subsystem keeps the incoming optical beam aligned with the receiver path during a LEO satellite pass. It works alongside the coarse telescope mount but corrects faster residual disturbances that the large mount cannot handle alone.\n\nThis subsystem is critical because optical communication links are highly sensitive to pointing error. Even if the telescope collects enough light, poor pointing can reduce coupling efficiency and damage the link margin."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-subsys-fine-pointing-and-tracking-md-section-1",
+        "heading": "Role in the Ground Station",
+        "level": 2,
+        "content": "The coarse mount follows the satellite’s large angular motion across the sky. The fine pointing subsystem handles faster and smaller disturbances, including residual mount jitter, platform vibration, and beam movement caused by atmospheric effects.\n\nThe subsystem is connected to:\n\n- [[SUBSYS - Telescope and Optical Receiver]]\n- [[REQ - Maintain Fine Pointing Stability]]\n- [[REQ - Reject Platform Jitter and Beam Wander]]\n- [[PHYS - Atmospheric Turbulence and Beam Wander]]\n- [[PHYS - Pointing Error and Optical Link Margin]]",
+        "searchText": "Role in the Ground Station\nThe coarse mount follows the satellite’s large angular motion across the sky. The fine pointing subsystem handles faster and smaller disturbances, including residual mount jitter, platform vibration, and beam movement caused by atmospheric effects.\n\nThe subsystem is connected to:\n\n- [[SUBSYS - Telescope and Optical Receiver]]\n- [[REQ - Maintain Fine Pointing Stability]]\n- [[REQ - Reject Platform Jitter and Beam Wander]]\n- [[PHYS - Atmospheric Turbulence and Beam Wander]]\n- [[PHYS - Pointing Error and Optical Link Margin]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-subsys-fine-pointing-and-tracking-md-section-2",
+        "heading": "Key Requirements",
+        "level": 2,
+        "content": "- [[REQ - Maintain Fine Pointing Stability]]\n- [[REQ - Reject Platform Jitter and Beam Wander]]\n\nThese requirements exist because high-rate optical links have narrow pointing tolerances. The system must maintain beam alignment not only in a static sense, but throughout a dynamic satellite pass.",
+        "searchText": "Key Requirements\n- [[REQ - Maintain Fine Pointing Stability]]\n- [[REQ - Reject Platform Jitter and Beam Wander]]\n\nThese requirements exist because high-rate optical links have narrow pointing tolerances. The system must maintain beam alignment not only in a static sense, but throughout a dynamic satellite pass."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-subsys-fine-pointing-and-tracking-md-section-3",
+        "heading": "Major Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n\nThe separation between coarse and fine pointing prevents the telescope mount from being forced to correct disturbances outside its practical response range. The FSM bandwidth target is treated as a design assumption that must be validated against measured disturbance spectra, actuator limits, and closed-loop testing.",
+        "searchText": "Major Design Decisions\n- [[DD - Separate Coarse and Fine Pointing Loops]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]\n\nThe separation between coarse and fine pointing prevents the telescope mount from being forced to correct disturbances outside its practical response range. The FSM bandwidth target is treated as a design assumption that must be validated against measured disturbance spectra, actuator limits, and closed-loop testing."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-subsys-fine-pointing-and-tracking-md-section-4",
+        "heading": "Major Components",
+        "level": 2,
+        "content": "- [[COMP - Candidate Fast Steering Mirror]]\n- [[COMP - Candidate Tracking Camera]]\n\nThese components implement the sensing and correction loop. The tracking camera detects residual beam position error, while the FSM provides high-speed angular correction.",
+        "searchText": "Major Components\n- [[COMP - Candidate Fast Steering Mirror]]\n- [[COMP - Candidate Tracking Camera]]\n\nThese components implement the sensing and correction loop. The tracking camera detects residual beam position error, while the FSM provides high-speed angular correction."
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-subsys-fine-pointing-and-tracking-md-section-5",
+        "heading": "Dependencies",
+        "level": 2,
+        "content": "Fine pointing depends on the telescope and receiver architecture because the acceptable pointing error is determined by the optical path, detector geometry, fiber coupling architecture, and link-budget margin.\n\nKey dependency:\n\n- [[SUBSYS - Telescope and Optical Receiver]]",
+        "searchText": "Dependencies\nFine pointing depends on the telescope and receiver architecture because the acceptable pointing error is determined by the optical path, detector geometry, fiber coupling architecture, and link-budget margin.\n\nKey dependency:\n\n- [[SUBSYS - Telescope and Optical Receiver]]"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-subsys-fine-pointing-and-tracking-md-section-6",
+        "heading": "Open Questions",
+        "level": 2,
+        "content": "- What is the measured disturbance spectrum at the site and on the telescope mount?\n- What correction bandwidth is required after separating coarse and fine pointing loops?\n- What actuator resonance and control stability limits constrain the FSM?\n- How should the system degrade if the tracking camera loses lock during a pass?",
+        "searchText": "Open Questions\n- What is the measured disturbance spectrum at the site and on the telescope mount?\n- What correction bandwidth is required after separating coarse and fine pointing loops?\n- What actuator resonance and control stability limits constrain the FSM?\n- How should the system degrade if the tracking camera loses lock during a pass?"
+      },
+      {
+        "id": "wiki-fine-pointing-and-tracking-subsys-fine-pointing-and-tracking-md-section-7",
+        "heading": "Links",
+        "level": 2,
+        "content": "- derives-from: [[REQ - Maintain Fine Pointing Stability]], [[REQ - Reject Platform Jitter and Beam Wander]]\n- justified-by: [[PHYS - Atmospheric Turbulence and Beam Wander]], [[PHYS - Pointing Error and Optical Link Margin]]\n- depends-on: [[SUBSYS - Telescope and Optical Receiver]]\n- implemented-by: [[COMP - Candidate Fast Steering Mirror]], [[COMP - Candidate Tracking Camera]]\n- references: [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]",
+        "searchText": "Links\n- derives-from: [[REQ - Maintain Fine Pointing Stability]], [[REQ - Reject Platform Jitter and Beam Wander]]\n- justified-by: [[PHYS - Atmospheric Turbulence and Beam Wander]], [[PHYS - Pointing Error and Optical Link Margin]]\n- depends-on: [[SUBSYS - Telescope and Optical Receiver]]\n- implemented-by: [[COMP - Candidate Fast Steering Mirror]], [[COMP - Candidate Tracking Camera]]\n- references: [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+      }
+    ],
+    "summaryText": "The fine pointing and tracking subsystem keeps the incoming optical beam aligned with the receiver path during a LEO satellite pass. It works alongside the coarse telescope mount but corrects faster residual disturbances that the large mount cannot handle alone. This subsystem is critical because optical communication links are highly sensitive to pointing error. Even if the telescope collects enough light, poor pointing can reduce coupling efficiency and damage the link margin.",
+    "fullText": "Summary The fine pointing and tracking subsystem keeps the incoming optical beam aligned with the receiver path during a LEO satellite pass. It works alongside the coarse telescope mount but corrects faster residual disturbances that the large mount cannot handle alone. This subsystem is critical because optical communication links are highly sensitive to pointing error. Even if the telescope collects enough light, poor pointing can reduce coupling efficiency and damage the link margin. Role in the Ground Station The coarse mount follows the satellite’s large angular motion across the sky. The fine pointing subsystem handles faster and smaller disturbances, including residual mount jitter, platform vibration, and beam movement caused by atmospheric effects. The subsystem is connected to: - [[SUBSYS - Telescope and Optical Receiver]] - [[REQ - Maintain Fine Pointing Stability]] - [[REQ - Reject Platform Jitter and Beam Wander]] - [[PHYS - Atmospheric Turbulence and Beam Wander]] - [[PHYS - Pointing Error and Optical Link Margin]] Key Requirements - [[REQ - Maintain Fine Pointing Stability]] - [[REQ - Reject Platform Jitter and Beam Wander]] These requirements exist because high-rate optical links have narrow pointing tolerances. The system must maintain beam alignment not only in a static sense, but throughout a dynamic satellite pass. Major Design Decisions - [[DD - Separate Coarse and Fine Pointing Loops]] - [[DD - Set FSM Bandwidth Target Near 400 Hz]] The separation between coarse and fine pointing prevents the telescope mount from being forced to correct disturbances outside its practical response range. The FSM bandwidth target is treated as a design assumption that must be validated against measured disturbance spectra, actuator limits, and closed-loop testing. Major Components - [[COMP - Candidate Fast Steering Mirror]] - [[COMP - Candidate Tracking Camera]] These components implement the sensing and correction loop. The tracking camera detects residual beam position error, while the FSM provides high-speed angular correction. Dependencies Fine pointing depends on the telescope and receiver architecture because the acceptable pointing error is determined by the optical path, detector geometry, fiber coupling architecture, and link-budget margin. Key dependency: - [[SUBSYS - Telescope and Optical Receiver]] Open Questions - What is the measured disturbance spectrum at the site and on the telescope mount? - What correction bandwidth is required after separating coarse and fine pointing loops? - What actuator resonance and control stability limits constrain the FSM? - How should the system degrade if the tracking camera loses lock during a pass? Links - derives-from: [[REQ - Maintain Fine Pointing Stability]], [[REQ - Reject Platform Jitter and Beam Wander]] - justified-by: [[PHYS - Atmospheric Turbulence and Beam Wander]], [[PHYS - Pointing Error and Optical Link Margin]] - depends-on: [[SUBSYS - Telescope and Optical Receiver]] - implemented-by: [[COMP - Candidate Fast Steering Mirror]], [[COMP - Candidate Tracking Camera]] - references: [[REF - Adaptive Optics and Atmospheric Turbulence Literature]]"
+  },
+  {
+    "id": "wiki-telescope-and-optical-receiver-index-md",
+    "slug": "telescope-and-optical-receiver-index",
+    "title": "Telescope and Optical Receiver - Index",
+    "path": "wiki/telescope-and-optical-receiver/_index.md",
+    "folder": "wiki/telescope-and-optical-receiver",
+    "subsystem": "telescope-and-optical-receiver",
+    "type": "index",
+    "status": "unknown",
+    "frontmatter": {},
+    "frontmatterLinks": {},
+    "wikilinks": [
+      "SUBSYS - Telescope and Optical Receiver",
+      "DD - Use Ritchey-Chretien Telescope for Primary Receiver",
+      "DD - Use Fiber-Coupled Optical Receiver Architecture",
+      "REQ - Maintain Optical Link During LEO Pass",
+      "REQ - Support High-Rate Downlink Capture",
+      "PHYS - Diffraction Link Budget and Aperture Size",
+      "PHYS - Fiber Coupling Efficiency",
+      "COMP - Candidate 50cm Telescope Assembly",
+      "REF - Optical Ground Station Design Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-telescope-and-optical-receiver-index-md-section-0",
+        "heading": "Subsystem Overview",
+        "level": 2,
+        "content": "- [[SUBSYS - Telescope and Optical Receiver]]",
+        "searchText": "Subsystem Overview\n- [[SUBSYS - Telescope and Optical Receiver]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-index-md-section-1",
+        "heading": "Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]",
+        "searchText": "Design Decisions\n- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-index-md-section-2",
+        "heading": "Requirements",
+        "level": 2,
+        "content": "- [[REQ - Maintain Optical Link During LEO Pass]]\n- [[REQ - Support High-Rate Downlink Capture]]",
+        "searchText": "Requirements\n- [[REQ - Maintain Optical Link During LEO Pass]]\n- [[REQ - Support High-Rate Downlink Capture]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-index-md-section-3",
+        "heading": "Physics Concepts",
+        "level": 2,
+        "content": "- [[PHYS - Diffraction Link Budget and Aperture Size]]\n- [[PHYS - Fiber Coupling Efficiency]]",
+        "searchText": "Physics Concepts\n- [[PHYS - Diffraction Link Budget and Aperture Size]]\n- [[PHYS - Fiber Coupling Efficiency]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-index-md-section-4",
+        "heading": "Components",
+        "level": 2,
+        "content": "- [[COMP - Candidate 50cm Telescope Assembly]]",
+        "searchText": "Components\n- [[COMP - Candidate 50cm Telescope Assembly]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-index-md-section-5",
+        "heading": "References",
+        "level": 2,
+        "content": "- [[REF - Optical Ground Station Design Literature]]",
+        "searchText": "References\n- [[REF - Optical Ground Station Design Literature]]"
+      }
+    ],
+    "summaryText": "- [[SUBSYS - Telescope and Optical Receiver]]",
+    "fullText": "Subsystem Overview - [[SUBSYS - Telescope and Optical Receiver]] Design Decisions - [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]] - [[DD - Use Fiber-Coupled Optical Receiver Architecture]] Requirements - [[REQ - Maintain Optical Link During LEO Pass]] - [[REQ - Support High-Rate Downlink Capture]] Physics Concepts - [[PHYS - Diffraction Link Budget and Aperture Size]] - [[PHYS - Fiber Coupling Efficiency]] Components - [[COMP - Candidate 50cm Telescope Assembly]] References - [[REF - Optical Ground Station Design Literature]]"
+  },
+  {
+    "id": "wiki-telescope-and-optical-receiver-comp-candidate-50cm-telescope-assembly-md",
+    "slug": "comp-candidate-50cm-telescope-assembly",
+    "title": "COMP - Candidate 50cm Telescope Assembly",
+    "path": "wiki/telescope-and-optical-receiver/COMP - Candidate 50cm Telescope Assembly.md",
+    "folder": "wiki/telescope-and-optical-receiver",
+    "subsystem": "telescope-and-optical-receiver",
+    "type": "component",
+    "status": "draft",
+    "frontmatter": {
+      "type": "component",
+      "status": "draft",
+      "vendor": "TBD",
+      "part_number": "TBD",
+      "estimated_cost": "TBD after RFQ",
+      "lead_time": "TBD after RFQ",
+      "datasheet": "TBD",
+      "used_in": [
+        "[[SUBSYS - Telescope and Optical Receiver]]"
+      ],
+      "implements": [
+        "[[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]"
+      ],
+      "risks": [
+        "alignment sensitivity",
+        "procurement lead time",
+        "mount integration"
+      ]
+    },
+    "frontmatterLinks": {
+      "used_in": [
+        "SUBSYS - Telescope and Optical Receiver"
+      ],
+      "implements": [
+        "DD - Use Ritchey-Chretien Telescope for Primary Receiver"
+      ]
+    },
+    "wikilinks": [
+      "DD - Use Ritchey-Chretien Telescope for Primary Receiver",
+      "REF - Optical Ground Station Design Literature",
+      "SUBSYS - Telescope and Optical Receiver"
+    ],
+    "sections": [
+      {
+        "id": "wiki-telescope-and-optical-receiver-comp-candidate-50cm-telescope-assembly-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "This component note represents the candidate 50cm-class telescope assembly for the sample optical ground station vault.",
+        "searchText": "Summary\nThis component note represents the candidate 50cm-class telescope assembly for the sample optical ground station vault."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-comp-candidate-50cm-telescope-assembly-md-section-1",
+        "heading": "Function",
+        "level": 2,
+        "content": "The telescope assembly collects the incoming optical downlink signal and routes it toward the receiver path.",
+        "searchText": "Function\nThe telescope assembly collects the incoming optical downlink signal and routes it toward the receiver path."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-comp-candidate-50cm-telescope-assembly-md-section-2",
+        "heading": "Candidate Specifications",
+        "level": 2,
+        "content": "- 50cm-class receiving aperture\n- Optical design suitable for acquisition and tracking use cases\n- Mechanically compatible with tracking mount and receiver bench\n- Alignment procedure suitable for field operation",
+        "searchText": "Candidate Specifications\n- 50cm-class receiving aperture\n- Optical design suitable for acquisition and tracking use cases\n- Mechanically compatible with tracking mount and receiver bench\n- Alignment procedure suitable for field operation"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-comp-candidate-50cm-telescope-assembly-md-section-3",
+        "heading": "Vendor and Procurement Notes",
+        "level": 2,
+        "content": "Vendor selection should consider optical quality, lead time, serviceability, export/import constraints, and mount compatibility.",
+        "searchText": "Vendor and Procurement Notes\nVendor selection should consider optical quality, lead time, serviceability, export/import constraints, and mount compatibility."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-comp-candidate-50cm-telescope-assembly-md-section-4",
+        "heading": "Implements",
+        "level": 2,
+        "content": "- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]",
+        "searchText": "Implements\n- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-comp-candidate-50cm-telescope-assembly-md-section-5",
+        "heading": "Risks",
+        "level": 2,
+        "content": "- Long procurement lead time\n- Alignment sensitivity\n- Shipping and customs risk\n- Mechanical interface mismatch\n- Insufficient field serviceability",
+        "searchText": "Risks\n- Long procurement lead time\n- Alignment sensitivity\n- Shipping and customs risk\n- Mechanical interface mismatch\n- Insufficient field serviceability"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-comp-candidate-50cm-telescope-assembly-md-section-6",
+        "heading": "Alternatives",
+        "level": 2,
+        "content": "- Smaller aperture prototype telescope\n- Larger research-grade telescope\n- Commercial off-the-shelf telescope assembly",
+        "searchText": "Alternatives\n- Smaller aperture prototype telescope\n- Larger research-grade telescope\n- Commercial off-the-shelf telescope assembly"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-comp-candidate-50cm-telescope-assembly-md-section-7",
+        "heading": "References",
+        "level": 2,
+        "content": "- [[REF - Optical Ground Station Design Literature]]",
+        "searchText": "References\n- [[REF - Optical Ground Station Design Literature]]"
+      }
+    ],
+    "summaryText": "This component note represents the candidate 50cm-class telescope assembly for the sample optical ground station vault.",
+    "fullText": "Summary This component note represents the candidate 50cm-class telescope assembly for the sample optical ground station vault. Function The telescope assembly collects the incoming optical downlink signal and routes it toward the receiver path. Candidate Specifications - 50cm-class receiving aperture - Optical design suitable for acquisition and tracking use cases - Mechanically compatible with tracking mount and receiver bench - Alignment procedure suitable for field operation Vendor and Procurement Notes Vendor selection should consider optical quality, lead time, serviceability, export/import constraints, and mount compatibility. Implements - [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]] Risks - Long procurement lead time - Alignment sensitivity - Shipping and customs risk - Mechanical interface mismatch - Insufficient field serviceability Alternatives - Smaller aperture prototype telescope - Larger research-grade telescope - Commercial off-the-shelf telescope assembly References - [[REF - Optical Ground Station Design Literature]]"
+  },
+  {
+    "id": "wiki-telescope-and-optical-receiver-dd-use-fiber-coupled-optical-receiver-architecture-md",
+    "slug": "dd-use-fiber-coupled-optical-receiver-architecture",
+    "title": "DD - Use Fiber-Coupled Optical Receiver Architecture",
+    "path": "wiki/telescope-and-optical-receiver/DD - Use Fiber-Coupled Optical Receiver Architecture.md",
+    "folder": "wiki/telescope-and-optical-receiver",
+    "subsystem": "telescope-and-optical-receiver",
+    "type": "design_decision",
+    "status": "canonical",
+    "owner": "optical-systems",
+    "frontmatter": {
+      "type": "design_decision",
+      "status": "canonical",
+      "owner": "optical-systems",
+      "decision_date": "2026-01-15T00:00:00.000Z",
+      "linked_requirements": [
+        "[[REQ - Support High-Rate Downlink Capture]]"
+      ],
+      "justified_by": [
+        "[[PHYS - Fiber Coupling Efficiency]]"
+      ],
+      "implemented_by": [
+        "optical receiver module"
+      ],
+      "depends_on": [
+        "[[REQ - Maintain Fine Pointing Stability]]",
+        "[[SUBSYS - Fine Pointing and Tracking]]"
+      ],
+      "supersedes": null,
+      "superseded_by": null,
+      "tested_by": [
+        "fiber coupling alignment test"
+      ],
+      "references": [
+        "[[REF - Optical Ground Station Design Literature]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "linked_requirements": [
+        "REQ - Support High-Rate Downlink Capture"
+      ],
+      "justified_by": [
+        "PHYS - Fiber Coupling Efficiency"
+      ],
+      "depends_on": [
+        "REQ - Maintain Fine Pointing Stability",
+        "SUBSYS - Fine Pointing and Tracking"
+      ],
+      "references": [
+        "REF - Optical Ground Station Design Literature"
+      ]
+    },
+    "wikilinks": [
+      "PHYS - Fiber Coupling Efficiency",
+      "REQ - Maintain Fine Pointing Stability",
+      "REQ - Support High-Rate Downlink Capture",
+      "SUBSYS - Fine Pointing and Tracking",
+      "REF - Optical Ground Station Design Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-fiber-coupled-optical-receiver-architecture-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "Use a fiber-coupled receiver path as the representative architecture for the sample vault, because it allows modular downstream receiver design but creates strict alignment and pointing requirements.",
+        "searchText": "Summary\nUse a fiber-coupled receiver path as the representative architecture for the sample vault, because it allows modular downstream receiver design but creates strict alignment and pointing requirements."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-fiber-coupled-optical-receiver-architecture-md-section-1",
+        "heading": "Context",
+        "level": 2,
+        "content": "A fiber-coupled architecture can simplify modular receiver integration, but coupling efficiency becomes sensitive to pointing error, optical alignment, and wavefront quality.",
+        "searchText": "Context\nA fiber-coupled architecture can simplify modular receiver integration, but coupling efficiency becomes sensitive to pointing error, optical alignment, and wavefront quality."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-fiber-coupled-optical-receiver-architecture-md-section-2",
+        "heading": "Decision",
+        "level": 2,
+        "content": "Route the collected optical signal into a fiber-coupled receiver path for downstream detection and processing.",
+        "searchText": "Decision\nRoute the collected optical signal into a fiber-coupled receiver path for downstream detection and processing."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-fiber-coupled-optical-receiver-architecture-md-section-3",
+        "heading": "Alternatives Considered",
+        "level": 2,
+        "content": "- Free-space receiver path\n- Direct detector placement at focal plane\n- Hybrid architecture with removable fiber-coupling stage",
+        "searchText": "Alternatives Considered\n- Free-space receiver path\n- Direct detector placement at focal plane\n- Hybrid architecture with removable fiber-coupling stage"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-fiber-coupled-optical-receiver-architecture-md-section-4",
+        "heading": "Trade-offs",
+        "level": 2,
+        "content": "Fiber coupling improves modularity and can simplify downstream receiver packaging. However, it increases sensitivity to pointing and alignment errors. This means the receiver decision directly depends on the fine pointing subsystem.",
+        "searchText": "Trade-offs\nFiber coupling improves modularity and can simplify downstream receiver packaging. However, it increases sensitivity to pointing and alignment errors. This means the receiver decision directly depends on the fine pointing subsystem."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-fiber-coupled-optical-receiver-architecture-md-section-5",
+        "heading": "Physics Rationale",
+        "level": 2,
+        "content": "This decision is justified by [[PHYS - Fiber Coupling Efficiency]] and depends on [[REQ - Maintain Fine Pointing Stability]].",
+        "searchText": "Physics Rationale\nThis decision is justified by [[PHYS - Fiber Coupling Efficiency]] and depends on [[REQ - Maintain Fine Pointing Stability]]."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-fiber-coupled-optical-receiver-architecture-md-section-6",
+        "heading": "Implementation",
+        "level": 2,
+        "content": "Implementation requires careful alignment procedures, coupling-loss measurement, and integration with the fine pointing loop.",
+        "searchText": "Implementation\nImplementation requires careful alignment procedures, coupling-loss measurement, and integration with the fine pointing loop."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-fiber-coupled-optical-receiver-architecture-md-section-7",
+        "heading": "Testing and Validation",
+        "level": 2,
+        "content": "Testing should measure coupling efficiency under static alignment and dynamic disturbance conditions.",
+        "searchText": "Testing and Validation\nTesting should measure coupling efficiency under static alignment and dynamic disturbance conditions."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-fiber-coupled-optical-receiver-architecture-md-section-8",
+        "heading": "Open Questions",
+        "level": 2,
+        "content": "- What coupling loss is acceptable for the first prototype?\n- Should early prototypes use a more forgiving free-space path before moving to fiber coupling?\n- How frequently will field alignment be required?",
+        "searchText": "Open Questions\n- What coupling loss is acceptable for the first prototype?\n- Should early prototypes use a more forgiving free-space path before moving to fiber coupling?\n- How frequently will field alignment be required?"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-fiber-coupled-optical-receiver-architecture-md-section-9",
+        "heading": "Links",
+        "level": 2,
+        "content": "- derives-from: [[REQ - Support High-Rate Downlink Capture]]\n- justified-by: [[PHYS - Fiber Coupling Efficiency]]\n- depends-on: [[REQ - Maintain Fine Pointing Stability]], [[SUBSYS - Fine Pointing and Tracking]]\n- tested-by: fiber coupling alignment test\n- references: [[REF - Optical Ground Station Design Literature]]",
+        "searchText": "Links\n- derives-from: [[REQ - Support High-Rate Downlink Capture]]\n- justified-by: [[PHYS - Fiber Coupling Efficiency]]\n- depends-on: [[REQ - Maintain Fine Pointing Stability]], [[SUBSYS - Fine Pointing and Tracking]]\n- tested-by: fiber coupling alignment test\n- references: [[REF - Optical Ground Station Design Literature]]"
+      }
+    ],
+    "summaryText": "Use a fiber-coupled receiver path as the representative architecture for the sample vault, because it allows modular downstream receiver design but creates strict alignment and pointing requirements.",
+    "fullText": "Summary Use a fiber-coupled receiver path as the representative architecture for the sample vault, because it allows modular downstream receiver design but creates strict alignment and pointing requirements. Context A fiber-coupled architecture can simplify modular receiver integration, but coupling efficiency becomes sensitive to pointing error, optical alignment, and wavefront quality. Decision Route the collected optical signal into a fiber-coupled receiver path for downstream detection and processing. Alternatives Considered - Free-space receiver path - Direct detector placement at focal plane - Hybrid architecture with removable fiber-coupling stage Trade-offs Fiber coupling improves modularity and can simplify downstream receiver packaging. However, it increases sensitivity to pointing and alignment errors. This means the receiver decision directly depends on the fine pointing subsystem. Physics Rationale This decision is justified by [[PHYS - Fiber Coupling Efficiency]] and depends on [[REQ - Maintain Fine Pointing Stability]]. Implementation Implementation requires careful alignment procedures, coupling-loss measurement, and integration with the fine pointing loop. Testing and Validation Testing should measure coupling efficiency under static alignment and dynamic disturbance conditions. Open Questions - What coupling loss is acceptable for the first prototype? - Should early prototypes use a more forgiving free-space path before moving to fiber coupling? - How frequently will field alignment be required? Links - derives-from: [[REQ - Support High-Rate Downlink Capture]] - justified-by: [[PHYS - Fiber Coupling Efficiency]] - depends-on: [[REQ - Maintain Fine Pointing Stability]], [[SUBSYS - Fine Pointing and Tracking]] - tested-by: fiber coupling alignment test - references: [[REF - Optical Ground Station Design Literature]]"
+  },
+  {
+    "id": "wiki-telescope-and-optical-receiver-dd-use-ritchey-chretien-telescope-for-primary-receiver-md",
+    "slug": "dd-use-ritchey-chretien-telescope-for-primary-receiver",
+    "title": "DD - Use Ritchey-Chretien Telescope for Primary Receiver",
+    "path": "wiki/telescope-and-optical-receiver/DD - Use Ritchey-Chretien Telescope for Primary Receiver.md",
+    "folder": "wiki/telescope-and-optical-receiver",
+    "subsystem": "telescope-and-optical-receiver",
+    "type": "design_decision",
+    "status": "canonical",
+    "owner": "optical-systems",
+    "frontmatter": {
+      "type": "design_decision",
+      "status": "canonical",
+      "owner": "optical-systems",
+      "decision_date": "2026-01-15T00:00:00.000Z",
+      "linked_requirements": [
+        "[[REQ - Maintain Optical Link During LEO Pass]]",
+        "[[REQ - Support High-Rate Downlink Capture]]"
+      ],
+      "justified_by": [
+        "[[PHYS - Diffraction Link Budget and Aperture Size]]"
+      ],
+      "implemented_by": [
+        "[[COMP - Candidate 50cm Telescope Assembly]]"
+      ],
+      "depends_on": [
+        "[[SUBSYS - Fine Pointing and Tracking]]"
+      ],
+      "supersedes": null,
+      "superseded_by": null,
+      "tested_by": [
+        "optical alignment and acquisition test"
+      ],
+      "references": [
+        "[[REF - Optical Ground Station Design Literature]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "linked_requirements": [
+        "REQ - Maintain Optical Link During LEO Pass",
+        "REQ - Support High-Rate Downlink Capture"
+      ],
+      "justified_by": [
+        "PHYS - Diffraction Link Budget and Aperture Size"
+      ],
+      "implemented_by": [
+        "COMP - Candidate 50cm Telescope Assembly"
+      ],
+      "depends_on": [
+        "SUBSYS - Fine Pointing and Tracking"
+      ],
+      "references": [
+        "REF - Optical Ground Station Design Literature"
+      ]
+    },
+    "wikilinks": [
+      "REQ - Maintain Optical Link During LEO Pass",
+      "PHYS - Diffraction Link Budget and Aperture Size",
+      "COMP - Candidate 50cm Telescope Assembly",
+      "SUBSYS - Fine Pointing and Tracking",
+      "REF - Optical Ground Station Design Literature",
+      "REQ - Support High-Rate Downlink Capture"
+    ],
+    "sections": [
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-ritchey-chretien-telescope-for-primary-receiver-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "The prototype knowledge graph records a Ritchey-Chretien telescope as the representative primary receiver architecture because it is a plausible optical design for a ground station requiring good image quality over a usable field while managing aberrations.",
+        "searchText": "Summary\nThe prototype knowledge graph records a Ritchey-Chretien telescope as the representative primary receiver architecture because it is a plausible optical design for a ground station requiring good image quality over a usable field while managing aberrations."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-ritchey-chretien-telescope-for-primary-receiver-md-section-1",
+        "heading": "Context",
+        "level": 2,
+        "content": "The QOSMIC prompt mentions the need to explain why a Ritchey-Chretien telescope was chosen. This note treats that as a sample design decision for the vault. In a production system, this note would be revised using QOSMIC’s internal optical design files, test data, and supplier constraints.",
+        "searchText": "Context\nThe QOSMIC prompt mentions the need to explain why a Ritchey-Chretien telescope was chosen. This note treats that as a sample design decision for the vault. In a production system, this note would be revised using QOSMIC’s internal optical design files, test data, and supplier constraints."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-ritchey-chretien-telescope-for-primary-receiver-md-section-2",
+        "heading": "Decision",
+        "level": 2,
+        "content": "Use a Ritchey-Chretien telescope design as the representative primary receiver architecture for the sample optical ground station vault.",
+        "searchText": "Decision\nUse a Ritchey-Chretien telescope design as the representative primary receiver architecture for the sample optical ground station vault."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-ritchey-chretien-telescope-for-primary-receiver-md-section-3",
+        "heading": "Alternatives Considered",
+        "level": 2,
+        "content": "- Newtonian telescope\n- Classical Cassegrain telescope\n- Commercial off-the-shelf telescope assembly\n- Larger research-grade telescope",
+        "searchText": "Alternatives Considered\n- Newtonian telescope\n- Classical Cassegrain telescope\n- Commercial off-the-shelf telescope assembly\n- Larger research-grade telescope"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-ritchey-chretien-telescope-for-primary-receiver-md-section-4",
+        "heading": "Trade-offs",
+        "level": 2,
+        "content": "A Ritchey-Chretien design can offer strong optical performance for imaging and tracking use cases, but it can be more expensive and alignment-sensitive than simpler telescope designs. A larger telescope may improve collection but increases mechanical complexity, cost, and deployment burden.",
+        "searchText": "Trade-offs\nA Ritchey-Chretien design can offer strong optical performance for imaging and tracking use cases, but it can be more expensive and alignment-sensitive than simpler telescope designs. A larger telescope may improve collection but increases mechanical complexity, cost, and deployment burden."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-ritchey-chretien-telescope-for-primary-receiver-md-section-5",
+        "heading": "Physics Rationale",
+        "level": 2,
+        "content": "This decision derives from [[REQ - Maintain Optical Link During LEO Pass]] and is justified by [[PHYS - Diffraction Link Budget and Aperture Size]]. The telescope choice affects collected power, optical quality, acquisition, and downstream receiver performance.",
+        "searchText": "Physics Rationale\nThis decision derives from [[REQ - Maintain Optical Link During LEO Pass]] and is justified by [[PHYS - Diffraction Link Budget and Aperture Size]]. The telescope choice affects collected power, optical quality, acquisition, and downstream receiver performance."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-ritchey-chretien-telescope-for-primary-receiver-md-section-6",
+        "heading": "Implementation",
+        "level": 2,
+        "content": "This decision is implemented by [[COMP - Candidate 50cm Telescope Assembly]].",
+        "searchText": "Implementation\nThis decision is implemented by [[COMP - Candidate 50cm Telescope Assembly]]."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-ritchey-chretien-telescope-for-primary-receiver-md-section-7",
+        "heading": "Testing and Validation",
+        "level": 2,
+        "content": "Validation should include optical alignment, acquisition performance, pointing integration, and link-budget verification.",
+        "searchText": "Testing and Validation\nValidation should include optical alignment, acquisition performance, pointing integration, and link-budget verification."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-ritchey-chretien-telescope-for-primary-receiver-md-section-8",
+        "heading": "Open Questions",
+        "level": 2,
+        "content": "- What is the exact field-of-view requirement?\n- What alignment tolerance is acceptable for field deployment?\n- What is the cost and lead-time difference versus simpler telescope options?",
+        "searchText": "Open Questions\n- What is the exact field-of-view requirement?\n- What alignment tolerance is acceptable for field deployment?\n- What is the cost and lead-time difference versus simpler telescope options?"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-dd-use-ritchey-chretien-telescope-for-primary-receiver-md-section-9",
+        "heading": "Links",
+        "level": 2,
+        "content": "- derives-from: [[REQ - Maintain Optical Link During LEO Pass]]\n- justified-by: [[PHYS - Diffraction Link Budget and Aperture Size]]\n- implemented-by: [[COMP - Candidate 50cm Telescope Assembly]]\n- depends-on: [[SUBSYS - Fine Pointing and Tracking]]\n- references: [[REF - Optical Ground Station Design Literature]]",
+        "searchText": "Links\n- derives-from: [[REQ - Maintain Optical Link During LEO Pass]]\n- justified-by: [[PHYS - Diffraction Link Budget and Aperture Size]]\n- implemented-by: [[COMP - Candidate 50cm Telescope Assembly]]\n- depends-on: [[SUBSYS - Fine Pointing and Tracking]]\n- references: [[REF - Optical Ground Station Design Literature]]"
+      }
+    ],
+    "summaryText": "The prototype knowledge graph records a Ritchey-Chretien telescope as the representative primary receiver architecture because it is a plausible optical design for a ground station requiring good image quality over a usable field while managing aberrations.",
+    "fullText": "Summary The prototype knowledge graph records a Ritchey-Chretien telescope as the representative primary receiver architecture because it is a plausible optical design for a ground station requiring good image quality over a usable field while managing aberrations. Context The QOSMIC prompt mentions the need to explain why a Ritchey-Chretien telescope was chosen. This note treats that as a sample design decision for the vault. In a production system, this note would be revised using QOSMIC’s internal optical design files, test data, and supplier constraints. Decision Use a Ritchey-Chretien telescope design as the representative primary receiver architecture for the sample optical ground station vault. Alternatives Considered - Newtonian telescope - Classical Cassegrain telescope - Commercial off-the-shelf telescope assembly - Larger research-grade telescope Trade-offs A Ritchey-Chretien design can offer strong optical performance for imaging and tracking use cases, but it can be more expensive and alignment-sensitive than simpler telescope designs. A larger telescope may improve collection but increases mechanical complexity, cost, and deployment burden. Physics Rationale This decision derives from [[REQ - Maintain Optical Link During LEO Pass]] and is justified by [[PHYS - Diffraction Link Budget and Aperture Size]]. The telescope choice affects collected power, optical quality, acquisition, and downstream receiver performance. Implementation This decision is implemented by [[COMP - Candidate 50cm Telescope Assembly]]. Testing and Validation Validation should include optical alignment, acquisition performance, pointing integration, and link-budget verification. Open Questions - What is the exact field-of-view requirement? - What alignment tolerance is acceptable for field deployment? - What is the cost and lead-time difference versus simpler telescope options? Links - derives-from: [[REQ - Maintain Optical Link During LEO Pass]] - justified-by: [[PHYS - Diffraction Link Budget and Aperture Size]] - implemented-by: [[COMP - Candidate 50cm Telescope Assembly]] - depends-on: [[SUBSYS - Fine Pointing and Tracking]] - references: [[REF - Optical Ground Station Design Literature]]"
+  },
+  {
+    "id": "wiki-telescope-and-optical-receiver-phys-diffraction-link-budget-and-aperture-size-md",
+    "slug": "phys-diffraction-link-budget-and-aperture-size",
+    "title": "PHYS - Diffraction Link Budget and Aperture Size",
+    "path": "wiki/telescope-and-optical-receiver/PHYS - Diffraction Link Budget and Aperture Size.md",
+    "folder": "wiki/telescope-and-optical-receiver",
+    "subsystem": "telescope-and-optical-receiver",
+    "type": "physics_concept",
+    "status": "reviewed",
+    "owner": "optical-systems",
+    "frontmatter": {
+      "type": "physics_concept",
+      "status": "reviewed",
+      "concept_area": "optical-link-budget",
+      "owner": "optical-systems",
+      "explains": [
+        "[[REQ - Maintain Optical Link During LEO Pass]]"
+      ],
+      "justifies": [
+        "[[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]"
+      ],
+      "references": [
+        "[[REF - Optical Ground Station Design Literature]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "explains": [
+        "REQ - Maintain Optical Link During LEO Pass"
+      ],
+      "justifies": [
+        "DD - Use Ritchey-Chretien Telescope for Primary Receiver"
+      ],
+      "references": [
+        "REF - Optical Ground Station Design Literature"
+      ]
+    },
+    "wikilinks": [
+      "REQ - Maintain Optical Link During LEO Pass",
+      "REQ - Support High-Rate Downlink Capture",
+      "DD - Use Ritchey-Chretien Telescope for Primary Receiver",
+      "REF - Optical Ground Station Design Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-diffraction-link-budget-and-aperture-size-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "Aperture size affects how much optical power the ground station can collect and how much link margin is available during a satellite pass.",
+        "searchText": "Summary\nAperture size affects how much optical power the ground station can collect and how much link margin is available during a satellite pass."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-diffraction-link-budget-and-aperture-size-md-section-1",
+        "heading": "Concept Explanation",
+        "level": 2,
+        "content": "Optical downlinks use narrow beams, but the received signal can still be weak because of range, pointing loss, atmospheric effects, optical losses, and detector sensitivity. A larger receiving aperture generally improves collected power, but it also increases mount, alignment, cost, and site-integration complexity.",
+        "searchText": "Concept Explanation\nOptical downlinks use narrow beams, but the received signal can still be weak because of range, pointing loss, atmospheric effects, optical losses, and detector sensitivity. A larger receiving aperture generally improves collected power, but it also increases mount, alignment, cost, and site-integration complexity."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-diffraction-link-budget-and-aperture-size-md-section-2",
+        "heading": "Why It Matters for QOSMIC",
+        "level": 2,
+        "content": "A 50cm-class ground station is a practical prototype scale because it can offer meaningful optical collection while remaining more deployable than very large research telescopes. The exact aperture choice should be validated against link-budget modelling and target customer downlink parameters.",
+        "searchText": "Why It Matters for QOSMIC\nA 50cm-class ground station is a practical prototype scale because it can offer meaningful optical collection while remaining more deployable than very large research telescopes. The exact aperture choice should be validated against link-budget modelling and target customer downlink parameters."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-diffraction-link-budget-and-aperture-size-md-section-3",
+        "heading": "Design Implications",
+        "level": 2,
+        "content": "- Aperture size affects link margin.\n- Larger optics increase mechanical and procurement complexity.\n- Telescope design must be evaluated with pointing, receiver architecture, and site conditions.\n- Aperture choice cannot be separated from acquisition and tracking performance.",
+        "searchText": "Design Implications\n- Aperture size affects link margin.\n- Larger optics increase mechanical and procurement complexity.\n- Telescope design must be evaluated with pointing, receiver architecture, and site conditions.\n- Aperture choice cannot be separated from acquisition and tracking performance."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-diffraction-link-budget-and-aperture-size-md-section-4",
+        "heading": "Related Requirements",
+        "level": 2,
+        "content": "- [[REQ - Maintain Optical Link During LEO Pass]]\n- [[REQ - Support High-Rate Downlink Capture]]",
+        "searchText": "Related Requirements\n- [[REQ - Maintain Optical Link During LEO Pass]]\n- [[REQ - Support High-Rate Downlink Capture]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-diffraction-link-budget-and-aperture-size-md-section-5",
+        "heading": "Related Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]",
+        "searchText": "Related Design Decisions\n- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-diffraction-link-budget-and-aperture-size-md-section-6",
+        "heading": "References",
+        "level": 2,
+        "content": "- [[REF - Optical Ground Station Design Literature]]",
+        "searchText": "References\n- [[REF - Optical Ground Station Design Literature]]"
+      }
+    ],
+    "summaryText": "Aperture size affects how much optical power the ground station can collect and how much link margin is available during a satellite pass.",
+    "fullText": "Summary Aperture size affects how much optical power the ground station can collect and how much link margin is available during a satellite pass. Concept Explanation Optical downlinks use narrow beams, but the received signal can still be weak because of range, pointing loss, atmospheric effects, optical losses, and detector sensitivity. A larger receiving aperture generally improves collected power, but it also increases mount, alignment, cost, and site-integration complexity. Why It Matters for QOSMIC A 50cm-class ground station is a practical prototype scale because it can offer meaningful optical collection while remaining more deployable than very large research telescopes. The exact aperture choice should be validated against link-budget modelling and target customer downlink parameters. Design Implications - Aperture size affects link margin. - Larger optics increase mechanical and procurement complexity. - Telescope design must be evaluated with pointing, receiver architecture, and site conditions. - Aperture choice cannot be separated from acquisition and tracking performance. Related Requirements - [[REQ - Maintain Optical Link During LEO Pass]] - [[REQ - Support High-Rate Downlink Capture]] Related Design Decisions - [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]] References - [[REF - Optical Ground Station Design Literature]]"
+  },
+  {
+    "id": "wiki-telescope-and-optical-receiver-phys-fiber-coupling-efficiency-md",
+    "slug": "phys-fiber-coupling-efficiency",
+    "title": "PHYS - Fiber Coupling Efficiency",
+    "path": "wiki/telescope-and-optical-receiver/PHYS - Fiber Coupling Efficiency.md",
+    "folder": "wiki/telescope-and-optical-receiver",
+    "subsystem": "telescope-and-optical-receiver",
+    "type": "physics_concept",
+    "status": "reviewed",
+    "owner": "optical-systems",
+    "frontmatter": {
+      "type": "physics_concept",
+      "status": "reviewed",
+      "concept_area": "optical-receiver",
+      "owner": "optical-systems",
+      "explains": [
+        "[[REQ - Support High-Rate Downlink Capture]]"
+      ],
+      "justifies": [
+        "[[DD - Use Fiber-Coupled Optical Receiver Architecture]]"
+      ],
+      "references": [
+        "[[REF - Optical Ground Station Design Literature]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "explains": [
+        "REQ - Support High-Rate Downlink Capture"
+      ],
+      "justifies": [
+        "DD - Use Fiber-Coupled Optical Receiver Architecture"
+      ],
+      "references": [
+        "REF - Optical Ground Station Design Literature"
+      ]
+    },
+    "wikilinks": [
+      "REQ - Support High-Rate Downlink Capture",
+      "REQ - Maintain Fine Pointing Stability",
+      "DD - Use Fiber-Coupled Optical Receiver Architecture",
+      "DD - Set FSM Bandwidth Target Near 400 Hz",
+      "REF - Optical Ground Station Design Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-fiber-coupling-efficiency-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "Fiber coupling efficiency describes how much collected optical power is successfully coupled into the fiber or receiver path.",
+        "searchText": "Summary\nFiber coupling efficiency describes how much collected optical power is successfully coupled into the fiber or receiver path."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-fiber-coupling-efficiency-md-section-1",
+        "heading": "Concept Explanation",
+        "level": 2,
+        "content": "A fiber-coupled receiver can make the downstream optical chain more modular, but it is sensitive to beam alignment, wavefront quality, and pointing stability. Small alignment errors can reduce coupling efficiency and therefore reduce link margin.",
+        "searchText": "Concept Explanation\nA fiber-coupled receiver can make the downstream optical chain more modular, but it is sensitive to beam alignment, wavefront quality, and pointing stability. Small alignment errors can reduce coupling efficiency and therefore reduce link margin."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-fiber-coupling-efficiency-md-section-2",
+        "heading": "Why It Matters for QOSMIC",
+        "level": 2,
+        "content": "If QOSMIC uses a fiber-coupled architecture, then telescope pointing, fine tracking, and optical alignment become tightly coupled design concerns. This connects the telescope subsystem directly to the fine pointing subsystem.",
+        "searchText": "Why It Matters for QOSMIC\nIf QOSMIC uses a fiber-coupled architecture, then telescope pointing, fine tracking, and optical alignment become tightly coupled design concerns. This connects the telescope subsystem directly to the fine pointing subsystem."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-fiber-coupling-efficiency-md-section-3",
+        "heading": "Design Implications",
+        "level": 2,
+        "content": "- Fiber coupling benefits modular receiver design.\n- Coupling loss must be included in the link budget.\n- Fine pointing performance directly affects receiver efficiency.\n- Alignment procedures and test fixtures become operationally important.",
+        "searchText": "Design Implications\n- Fiber coupling benefits modular receiver design.\n- Coupling loss must be included in the link budget.\n- Fine pointing performance directly affects receiver efficiency.\n- Alignment procedures and test fixtures become operationally important."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-fiber-coupling-efficiency-md-section-4",
+        "heading": "Related Requirements",
+        "level": 2,
+        "content": "- [[REQ - Support High-Rate Downlink Capture]]\n- [[REQ - Maintain Fine Pointing Stability]]",
+        "searchText": "Related Requirements\n- [[REQ - Support High-Rate Downlink Capture]]\n- [[REQ - Maintain Fine Pointing Stability]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-fiber-coupling-efficiency-md-section-5",
+        "heading": "Related Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]",
+        "searchText": "Related Design Decisions\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n- [[DD - Set FSM Bandwidth Target Near 400 Hz]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-phys-fiber-coupling-efficiency-md-section-6",
+        "heading": "References",
+        "level": 2,
+        "content": "- [[REF - Optical Ground Station Design Literature]]",
+        "searchText": "References\n- [[REF - Optical Ground Station Design Literature]]"
+      }
+    ],
+    "summaryText": "Fiber coupling efficiency describes how much collected optical power is successfully coupled into the fiber or receiver path.",
+    "fullText": "Summary Fiber coupling efficiency describes how much collected optical power is successfully coupled into the fiber or receiver path. Concept Explanation A fiber-coupled receiver can make the downstream optical chain more modular, but it is sensitive to beam alignment, wavefront quality, and pointing stability. Small alignment errors can reduce coupling efficiency and therefore reduce link margin. Why It Matters for QOSMIC If QOSMIC uses a fiber-coupled architecture, then telescope pointing, fine tracking, and optical alignment become tightly coupled design concerns. This connects the telescope subsystem directly to the fine pointing subsystem. Design Implications - Fiber coupling benefits modular receiver design. - Coupling loss must be included in the link budget. - Fine pointing performance directly affects receiver efficiency. - Alignment procedures and test fixtures become operationally important. Related Requirements - [[REQ - Support High-Rate Downlink Capture]] - [[REQ - Maintain Fine Pointing Stability]] Related Design Decisions - [[DD - Use Fiber-Coupled Optical Receiver Architecture]] - [[DD - Set FSM Bandwidth Target Near 400 Hz]] References - [[REF - Optical Ground Station Design Literature]]"
+  },
+  {
+    "id": "wiki-telescope-and-optical-receiver-ref-optical-ground-station-design-literature-md",
+    "slug": "ref-optical-ground-station-design-literature",
+    "title": "REF - Optical Ground Station Design Literature",
+    "path": "wiki/telescope-and-optical-receiver/REF - Optical Ground Station Design Literature.md",
+    "folder": "wiki/telescope-and-optical-receiver",
+    "subsystem": "telescope-and-optical-receiver",
+    "type": "reference",
+    "status": "reviewed",
+    "frontmatter": {
+      "type": "reference",
+      "status": "reviewed",
+      "source_type": "literature-review",
+      "authors": "multiple",
+      "year": "mixed",
+      "url": "TBD",
+      "supports": [
+        "[[SUBSYS - Telescope and Optical Receiver]]",
+        "[[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]",
+        "[[DD - Use Fiber-Coupled Optical Receiver Architecture]]"
+      ],
+      "related_notes": [
+        "[[PHYS - Diffraction Link Budget and Aperture Size]]",
+        "[[PHYS - Fiber Coupling Efficiency]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "supports": [
+        "SUBSYS - Telescope and Optical Receiver",
+        "DD - Use Ritchey-Chretien Telescope for Primary Receiver",
+        "DD - Use Fiber-Coupled Optical Receiver Architecture"
+      ],
+      "related_notes": [
+        "PHYS - Diffraction Link Budget and Aperture Size",
+        "PHYS - Fiber Coupling Efficiency"
+      ]
+    },
+    "wikilinks": [
+      "SUBSYS - Telescope and Optical Receiver",
+      "DD - Use Ritchey-Chretien Telescope for Primary Receiver",
+      "DD - Use Fiber-Coupled Optical Receiver Architecture",
+      "PHYS - Diffraction Link Budget and Aperture Size",
+      "PHYS - Fiber Coupling Efficiency"
+    ],
+    "sections": [
+      {
+        "id": "wiki-telescope-and-optical-receiver-ref-optical-ground-station-design-literature-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "This reference note stands in for the optical ground station design literature that would support telescope sizing, receiver architecture, link-budget modelling, and optical alignment choices.",
+        "searchText": "Summary\nThis reference note stands in for the optical ground station design literature that would support telescope sizing, receiver architecture, link-budget modelling, and optical alignment choices."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-ref-optical-ground-station-design-literature-md-section-1",
+        "heading": "Key Takeaways",
+        "level": 2,
+        "content": "- Optical receiver design must be evaluated through link-budget impact, not only optical quality.\n- Telescope aperture affects collection power but also drives cost, mount complexity, and alignment burden.\n- Receiver architecture and pointing architecture are tightly coupled.\n- Fiber coupling can improve modularity but increases sensitivity to alignment and pointing error.",
+        "searchText": "Key Takeaways\n- Optical receiver design must be evaluated through link-budget impact, not only optical quality.\n- Telescope aperture affects collection power but also drives cost, mount complexity, and alignment burden.\n- Receiver architecture and pointing architecture are tightly coupled.\n- Fiber coupling can improve modularity but increases sensitivity to alignment and pointing error."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-ref-optical-ground-station-design-literature-md-section-2",
+        "heading": "Relevance to QOSMIC",
+        "level": 2,
+        "content": "This literature supports the telescope and receiver subsystem of the sample vault. In the production system, this note should be replaced by specific papers, datasheets, internal design documents, and test reports.",
+        "searchText": "Relevance to QOSMIC\nThis literature supports the telescope and receiver subsystem of the sample vault. In the production system, this note should be replaced by specific papers, datasheets, internal design documents, and test reports."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-ref-optical-ground-station-design-literature-md-section-3",
+        "heading": "Supports These Notes",
+        "level": 2,
+        "content": "- [[SUBSYS - Telescope and Optical Receiver]]\n- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n- [[PHYS - Diffraction Link Budget and Aperture Size]]\n- [[PHYS - Fiber Coupling Efficiency]]",
+        "searchText": "Supports These Notes\n- [[SUBSYS - Telescope and Optical Receiver]]\n- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n- [[PHYS - Diffraction Link Budget and Aperture Size]]\n- [[PHYS - Fiber Coupling Efficiency]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-ref-optical-ground-station-design-literature-md-section-4",
+        "heading": "Limitations",
+        "level": 2,
+        "content": "This is a prototype reference note. It does not claim to represent QOSMIC’s final internal technical basis.",
+        "searchText": "Limitations\nThis is a prototype reference note. It does not claim to represent QOSMIC’s final internal technical basis."
+      }
+    ],
+    "summaryText": "This reference note stands in for the optical ground station design literature that would support telescope sizing, receiver architecture, link-budget modelling, and optical alignment choices.",
+    "fullText": "Summary This reference note stands in for the optical ground station design literature that would support telescope sizing, receiver architecture, link-budget modelling, and optical alignment choices. Key Takeaways - Optical receiver design must be evaluated through link-budget impact, not only optical quality. - Telescope aperture affects collection power but also drives cost, mount complexity, and alignment burden. - Receiver architecture and pointing architecture are tightly coupled. - Fiber coupling can improve modularity but increases sensitivity to alignment and pointing error. Relevance to QOSMIC This literature supports the telescope and receiver subsystem of the sample vault. In the production system, this note should be replaced by specific papers, datasheets, internal design documents, and test reports. Supports These Notes - [[SUBSYS - Telescope and Optical Receiver]] - [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]] - [[DD - Use Fiber-Coupled Optical Receiver Architecture]] - [[PHYS - Diffraction Link Budget and Aperture Size]] - [[PHYS - Fiber Coupling Efficiency]] Limitations This is a prototype reference note. It does not claim to represent QOSMIC’s final internal technical basis."
+  },
+  {
+    "id": "wiki-telescope-and-optical-receiver-req-maintain-optical-link-during-leo-pass-md",
+    "slug": "req-maintain-optical-link-during-leo-pass",
+    "title": "REQ - Maintain Optical Link During LEO Pass",
+    "path": "wiki/telescope-and-optical-receiver/REQ - Maintain Optical Link During LEO Pass.md",
+    "folder": "wiki/telescope-and-optical-receiver",
+    "subsystem": "telescope-and-optical-receiver",
+    "type": "requirement",
+    "status": "canonical",
+    "owner": "systems-engineering",
+    "frontmatter": {
+      "type": "requirement",
+      "status": "canonical",
+      "requirement_id": "REQ-OPT-001",
+      "priority": "high",
+      "owner": "systems-engineering",
+      "verification_method": "end-to-end link test",
+      "source": "prototype mission requirement",
+      "derived_decisions": [
+        "[[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]",
+        "[[DD - Use Fiber-Coupled Optical Receiver Architecture]]"
+      ],
+      "tested_by": [
+        "closed-loop satellite pass test"
+      ]
+    },
+    "frontmatterLinks": {
+      "derived_decisions": [
+        "DD - Use Ritchey-Chretien Telescope for Primary Receiver",
+        "DD - Use Fiber-Coupled Optical Receiver Architecture"
+      ]
+    },
+    "wikilinks": [
+      "DD - Use Ritchey-Chretien Telescope for Primary Receiver",
+      "DD - Use Fiber-Coupled Optical Receiver Architecture",
+      "DD - Separate Coarse and Fine Pointing Loops"
+    ],
+    "sections": [
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-maintain-optical-link-during-leo-pass-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "The ground station must maintain a usable optical communication link during the available window of a LEO satellite pass.",
+        "searchText": "Summary\nThe ground station must maintain a usable optical communication link during the available window of a LEO satellite pass."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-maintain-optical-link-during-leo-pass-md-section-1",
+        "heading": "Requirement Statement",
+        "level": 2,
+        "content": "The optical ground station should collect, track, and process the downlink signal for the usable duration of a LEO pass under expected site and weather conditions.",
+        "searchText": "Requirement Statement\nThe optical ground station should collect, track, and process the downlink signal for the usable duration of a LEO pass under expected site and weather conditions."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-maintain-optical-link-during-leo-pass-md-section-2",
+        "heading": "Why This Requirement Exists",
+        "level": 2,
+        "content": "LEO passes are short and dynamic. The satellite moves quickly across the sky, the received beam is narrow, and atmospheric effects can disturb the received signal. If the link is lost repeatedly during the pass, the station cannot deliver reliable high-rate downlink service.",
+        "searchText": "Why This Requirement Exists\nLEO passes are short and dynamic. The satellite moves quickly across the sky, the received beam is narrow, and atmospheric effects can disturb the received signal. If the link is lost repeatedly during the pass, the station cannot deliver reliable high-rate downlink service."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-maintain-optical-link-during-leo-pass-md-section-3",
+        "heading": "Acceptance Criteria",
+        "level": 2,
+        "content": "- The telescope can acquire and track the satellite during the pass.\n- The receiver path maintains enough signal quality for downstream demodulation.\n- Fine pointing corrections remain stable during expected disturbance levels.\n- Data loss events are logged and correlated with pointing, weather, and receiver telemetry.",
+        "searchText": "Acceptance Criteria\n- The telescope can acquire and track the satellite during the pass.\n- The receiver path maintains enough signal quality for downstream demodulation.\n- Fine pointing corrections remain stable during expected disturbance levels.\n- Data loss events are logged and correlated with pointing, weather, and receiver telemetry."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-maintain-optical-link-during-leo-pass-md-section-4",
+        "heading": "Verification Method",
+        "level": 2,
+        "content": "End-to-end link tests during controlled passes or hardware-in-the-loop simulations.",
+        "searchText": "Verification Method\nEnd-to-end link tests during controlled passes or hardware-in-the-loop simulations."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-maintain-optical-link-during-leo-pass-md-section-5",
+        "heading": "Related Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]",
+        "searchText": "Related Design Decisions\n- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n- [[DD - Separate Coarse and Fine Pointing Loops]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-maintain-optical-link-during-leo-pass-md-section-6",
+        "heading": "Open Questions",
+        "level": 2,
+        "content": "- What minimum link availability is required for first commercial service?\n- What weather and turbulence thresholds define an operational pass?",
+        "searchText": "Open Questions\n- What minimum link availability is required for first commercial service?\n- What weather and turbulence thresholds define an operational pass?"
+      }
+    ],
+    "summaryText": "The ground station must maintain a usable optical communication link during the available window of a LEO satellite pass.",
+    "fullText": "Summary The ground station must maintain a usable optical communication link during the available window of a LEO satellite pass. Requirement Statement The optical ground station should collect, track, and process the downlink signal for the usable duration of a LEO pass under expected site and weather conditions. Why This Requirement Exists LEO passes are short and dynamic. The satellite moves quickly across the sky, the received beam is narrow, and atmospheric effects can disturb the received signal. If the link is lost repeatedly during the pass, the station cannot deliver reliable high-rate downlink service. Acceptance Criteria - The telescope can acquire and track the satellite during the pass. - The receiver path maintains enough signal quality for downstream demodulation. - Fine pointing corrections remain stable during expected disturbance levels. - Data loss events are logged and correlated with pointing, weather, and receiver telemetry. Verification Method End-to-end link tests during controlled passes or hardware-in-the-loop simulations. Related Design Decisions - [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]] - [[DD - Use Fiber-Coupled Optical Receiver Architecture]] - [[DD - Separate Coarse and Fine Pointing Loops]] Open Questions - What minimum link availability is required for first commercial service? - What weather and turbulence thresholds define an operational pass?"
+  },
+  {
+    "id": "wiki-telescope-and-optical-receiver-req-support-high-rate-downlink-capture-md",
+    "slug": "req-support-high-rate-downlink-capture",
+    "title": "REQ - Support High-Rate Downlink Capture",
+    "path": "wiki/telescope-and-optical-receiver/REQ - Support High-Rate Downlink Capture.md",
+    "folder": "wiki/telescope-and-optical-receiver",
+    "subsystem": "telescope-and-optical-receiver",
+    "type": "requirement",
+    "status": "canonical",
+    "owner": "systems-engineering",
+    "frontmatter": {
+      "type": "requirement",
+      "status": "canonical",
+      "requirement_id": "REQ-OPT-002",
+      "priority": "high",
+      "owner": "systems-engineering",
+      "verification_method": "receiver throughput test",
+      "source": "optical downlink service requirement",
+      "derived_decisions": [
+        "[[DD - Use Fiber-Coupled Optical Receiver Architecture]]"
+      ],
+      "tested_by": [
+        "receiver chain throughput test"
+      ]
+    },
+    "frontmatterLinks": {
+      "derived_decisions": [
+        "DD - Use Fiber-Coupled Optical Receiver Architecture"
+      ]
+    },
+    "wikilinks": [
+      "DD - Use Fiber-Coupled Optical Receiver Architecture",
+      "DD - Use Ritchey-Chretien Telescope for Primary Receiver"
+    ],
+    "sections": [
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-support-high-rate-downlink-capture-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "The receiver chain must support high-rate satellite downlink capture without creating a bottleneck after optical collection.",
+        "searchText": "Summary\nThe receiver chain must support high-rate satellite downlink capture without creating a bottleneck after optical collection."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-support-high-rate-downlink-capture-md-section-1",
+        "heading": "Requirement Statement",
+        "level": 2,
+        "content": "The optical receiver subsystem should preserve enough optical signal quality and downstream data throughput to support high-rate LEO satellite downlinks.",
+        "searchText": "Requirement Statement\nThe optical receiver subsystem should preserve enough optical signal quality and downstream data throughput to support high-rate LEO satellite downlinks."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-support-high-rate-downlink-capture-md-section-2",
+        "heading": "Why This Requirement Exists",
+        "level": 2,
+        "content": "Optical ground stations are valuable because they can support much higher data rates than many conventional RF links. If the optical receiver or downstream interface becomes the bottleneck, the station loses one of its core advantages.",
+        "searchText": "Why This Requirement Exists\nOptical ground stations are valuable because they can support much higher data rates than many conventional RF links. If the optical receiver or downstream interface becomes the bottleneck, the station loses one of its core advantages."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-support-high-rate-downlink-capture-md-section-3",
+        "heading": "Acceptance Criteria",
+        "level": 2,
+        "content": "- Receiver path preserves sufficient signal-to-noise ratio.\n- Downstream electronics can process the expected data rate.\n- Storage and backhaul systems can buffer and transfer captured pass data.\n- Losses in fiber coupling and receiver alignment remain within system budget.",
+        "searchText": "Acceptance Criteria\n- Receiver path preserves sufficient signal-to-noise ratio.\n- Downstream electronics can process the expected data rate.\n- Storage and backhaul systems can buffer and transfer captured pass data.\n- Losses in fiber coupling and receiver alignment remain within system budget."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-support-high-rate-downlink-capture-md-section-4",
+        "heading": "Verification Method",
+        "level": 2,
+        "content": "Receiver chain throughput test and end-to-end pass simulation.",
+        "searchText": "Verification Method\nReceiver chain throughput test and end-to-end pass simulation."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-support-high-rate-downlink-capture-md-section-5",
+        "heading": "Related Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]",
+        "searchText": "Related Design Decisions\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-req-support-high-rate-downlink-capture-md-section-6",
+        "heading": "Open Questions",
+        "level": 2,
+        "content": "- What data rate is required for the first satellite downlink demonstration?\n- What margin is required above expected customer throughput?",
+        "searchText": "Open Questions\n- What data rate is required for the first satellite downlink demonstration?\n- What margin is required above expected customer throughput?"
+      }
+    ],
+    "summaryText": "The receiver chain must support high-rate satellite downlink capture without creating a bottleneck after optical collection.",
+    "fullText": "Summary The receiver chain must support high-rate satellite downlink capture without creating a bottleneck after optical collection. Requirement Statement The optical receiver subsystem should preserve enough optical signal quality and downstream data throughput to support high-rate LEO satellite downlinks. Why This Requirement Exists Optical ground stations are valuable because they can support much higher data rates than many conventional RF links. If the optical receiver or downstream interface becomes the bottleneck, the station loses one of its core advantages. Acceptance Criteria - Receiver path preserves sufficient signal-to-noise ratio. - Downstream electronics can process the expected data rate. - Storage and backhaul systems can buffer and transfer captured pass data. - Losses in fiber coupling and receiver alignment remain within system budget. Verification Method Receiver chain throughput test and end-to-end pass simulation. Related Design Decisions - [[DD - Use Fiber-Coupled Optical Receiver Architecture]] - [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]] Open Questions - What data rate is required for the first satellite downlink demonstration? - What margin is required above expected customer throughput?"
+  },
+  {
+    "id": "wiki-telescope-and-optical-receiver-subsys-telescope-and-optical-receiver-md",
+    "slug": "subsys-telescope-and-optical-receiver",
+    "title": "SUBSYS - Telescope and Optical Receiver",
+    "path": "wiki/telescope-and-optical-receiver/SUBSYS - Telescope and Optical Receiver.md",
+    "folder": "wiki/telescope-and-optical-receiver",
+    "subsystem": "telescope-and-optical-receiver",
+    "type": "subsystem",
+    "status": "canonical",
+    "owner": "optical-systems",
+    "frontmatter": {
+      "type": "subsystem",
+      "status": "canonical",
+      "owner": "optical-systems",
+      "last_reviewed": "2026-01-15T00:00:00.000Z",
+      "related_requirements": [
+        "[[REQ - Maintain Optical Link During LEO Pass]]",
+        "[[REQ - Support High-Rate Downlink Capture]]"
+      ],
+      "related_design_decisions": [
+        "[[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]",
+        "[[DD - Use Fiber-Coupled Optical Receiver Architecture]]"
+      ],
+      "related_components": [
+        "[[COMP - Candidate 50cm Telescope Assembly]]"
+      ],
+      "related_physics": [
+        "[[PHYS - Diffraction Link Budget and Aperture Size]]",
+        "[[PHYS - Fiber Coupling Efficiency]]"
+      ],
+      "references": [
+        "[[REF - Optical Ground Station Design Literature]]"
+      ]
+    },
+    "frontmatterLinks": {
+      "related_requirements": [
+        "REQ - Maintain Optical Link During LEO Pass",
+        "REQ - Support High-Rate Downlink Capture"
+      ],
+      "related_design_decisions": [
+        "DD - Use Ritchey-Chretien Telescope for Primary Receiver",
+        "DD - Use Fiber-Coupled Optical Receiver Architecture"
+      ],
+      "related_components": [
+        "COMP - Candidate 50cm Telescope Assembly"
+      ],
+      "related_physics": [
+        "PHYS - Diffraction Link Budget and Aperture Size",
+        "PHYS - Fiber Coupling Efficiency"
+      ],
+      "references": [
+        "REF - Optical Ground Station Design Literature"
+      ]
+    },
+    "wikilinks": [
+      "SUBSYS - Fine Pointing and Tracking",
+      "REQ - Maintain Optical Link During LEO Pass",
+      "REQ - Support High-Rate Downlink Capture",
+      "PHYS - Diffraction Link Budget and Aperture Size",
+      "PHYS - Fiber Coupling Efficiency",
+      "DD - Use Ritchey-Chretien Telescope for Primary Receiver",
+      "DD - Use Fiber-Coupled Optical Receiver Architecture",
+      "COMP - Candidate 50cm Telescope Assembly",
+      "REF - Optical Ground Station Design Literature"
+    ],
+    "sections": [
+      {
+        "id": "wiki-telescope-and-optical-receiver-subsys-telescope-and-optical-receiver-md-section-0",
+        "heading": "Summary",
+        "level": 2,
+        "content": "The telescope and optical receiver subsystem collects the incoming optical signal from a LEO satellite, concentrates it through the receiving telescope, and routes the optical energy toward the receiver chain for detection, demodulation, and downstream processing.\n\nThis subsystem is the first physical interface between the satellite downlink and the ground station. Its design choices strongly affect link margin, pointing tolerance, fiber coupling efficiency, and receiver sensitivity.",
+        "searchText": "Summary\nThe telescope and optical receiver subsystem collects the incoming optical signal from a LEO satellite, concentrates it through the receiving telescope, and routes the optical energy toward the receiver chain for detection, demodulation, and downstream processing.\n\nThis subsystem is the first physical interface between the satellite downlink and the ground station. Its design choices strongly affect link margin, pointing tolerance, fiber coupling efficiency, and receiver sensitivity."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-subsys-telescope-and-optical-receiver-md-section-1",
+        "heading": "Role in the Ground Station",
+        "level": 2,
+        "content": "During a satellite pass, the telescope must collect a weak, fast-moving optical signal while the rest of the system tracks the satellite and corrects pointing error. The receiver side must then preserve as much collected optical power as possible so that downstream electronics can recover the data stream.\n\nThe subsystem connects directly to:\n\n- [[SUBSYS - Fine Pointing and Tracking]]\n- [[REQ - Maintain Optical Link During LEO Pass]]\n- [[REQ - Support High-Rate Downlink Capture]]\n- [[PHYS - Diffraction Link Budget and Aperture Size]]\n- [[PHYS - Fiber Coupling Efficiency]]",
+        "searchText": "Role in the Ground Station\nDuring a satellite pass, the telescope must collect a weak, fast-moving optical signal while the rest of the system tracks the satellite and corrects pointing error. The receiver side must then preserve as much collected optical power as possible so that downstream electronics can recover the data stream.\n\nThe subsystem connects directly to:\n\n- [[SUBSYS - Fine Pointing and Tracking]]\n- [[REQ - Maintain Optical Link During LEO Pass]]\n- [[REQ - Support High-Rate Downlink Capture]]\n- [[PHYS - Diffraction Link Budget and Aperture Size]]\n- [[PHYS - Fiber Coupling Efficiency]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-subsys-telescope-and-optical-receiver-md-section-2",
+        "heading": "Key Requirements",
+        "level": 2,
+        "content": "- [[REQ - Maintain Optical Link During LEO Pass]]\n- [[REQ - Support High-Rate Downlink Capture]]\n\nThe telescope and receiver must maintain adequate optical collection and signal quality throughout the usable portion of a LEO pass. This means the subsystem cannot be designed independently of tracking, atmospheric effects, and receiver sensitivity.",
+        "searchText": "Key Requirements\n- [[REQ - Maintain Optical Link During LEO Pass]]\n- [[REQ - Support High-Rate Downlink Capture]]\n\nThe telescope and receiver must maintain adequate optical collection and signal quality throughout the usable portion of a LEO pass. This means the subsystem cannot be designed independently of tracking, atmospheric effects, and receiver sensitivity."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-subsys-telescope-and-optical-receiver-md-section-3",
+        "heading": "Major Design Decisions",
+        "level": 2,
+        "content": "- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n\nThese decisions are treated as separate design-decision notes because each has different trade-offs. The telescope choice affects optical quality, mechanical integration, and field performance. The receiver architecture affects coupling loss, alignment sensitivity, modularity, and downstream component selection.",
+        "searchText": "Major Design Decisions\n- [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]]\n- [[DD - Use Fiber-Coupled Optical Receiver Architecture]]\n\nThese decisions are treated as separate design-decision notes because each has different trade-offs. The telescope choice affects optical quality, mechanical integration, and field performance. The receiver architecture affects coupling loss, alignment sensitivity, modularity, and downstream component selection."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-subsys-telescope-and-optical-receiver-md-section-4",
+        "heading": "Major Components",
+        "level": 2,
+        "content": "- [[COMP - Candidate 50cm Telescope Assembly]]\n\nThe component note records candidate vendor, procurement, lead-time, and technical-risk information. In a production vault, this would be connected to datasheets, procurement records, inspection results, and test reports.",
+        "searchText": "Major Components\n- [[COMP - Candidate 50cm Telescope Assembly]]\n\nThe component note records candidate vendor, procurement, lead-time, and technical-risk information. In a production vault, this would be connected to datasheets, procurement records, inspection results, and test reports."
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-subsys-telescope-and-optical-receiver-md-section-5",
+        "heading": "Dependencies",
+        "level": 2,
+        "content": "This subsystem depends on the fine pointing system because optical collection alone is not sufficient. If pointing error is too high, the collected beam may not couple efficiently into the receiver path.\n\nKey dependency:\n\n- [[SUBSYS - Fine Pointing and Tracking]]",
+        "searchText": "Dependencies\nThis subsystem depends on the fine pointing system because optical collection alone is not sufficient. If pointing error is too high, the collected beam may not couple efficiently into the receiver path.\n\nKey dependency:\n\n- [[SUBSYS - Fine Pointing and Tracking]]"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-subsys-telescope-and-optical-receiver-md-section-6",
+        "heading": "Open Questions",
+        "level": 2,
+        "content": "- What are the measured seeing conditions and turbulence statistics at the intended ground-station site?\n- What link margin is required for the first satellite downlink demonstration?\n- How much receiver loss can be tolerated before the communication link becomes unreliable?\n- Should early prototypes prioritize alignment flexibility over compact packaging?",
+        "searchText": "Open Questions\n- What are the measured seeing conditions and turbulence statistics at the intended ground-station site?\n- What link margin is required for the first satellite downlink demonstration?\n- How much receiver loss can be tolerated before the communication link becomes unreliable?\n- Should early prototypes prioritize alignment flexibility over compact packaging?"
+      },
+      {
+        "id": "wiki-telescope-and-optical-receiver-subsys-telescope-and-optical-receiver-md-section-7",
+        "heading": "Links",
+        "level": 2,
+        "content": "- derives-from: [[REQ - Maintain Optical Link During LEO Pass]], [[REQ - Support High-Rate Downlink Capture]]\n- justified-by: [[PHYS - Diffraction Link Budget and Aperture Size]], [[PHYS - Fiber Coupling Efficiency]]\n- depends-on: [[SUBSYS - Fine Pointing and Tracking]]\n- implemented-by: [[COMP - Candidate 50cm Telescope Assembly]]\n- references: [[REF - Optical Ground Station Design Literature]]",
+        "searchText": "Links\n- derives-from: [[REQ - Maintain Optical Link During LEO Pass]], [[REQ - Support High-Rate Downlink Capture]]\n- justified-by: [[PHYS - Diffraction Link Budget and Aperture Size]], [[PHYS - Fiber Coupling Efficiency]]\n- depends-on: [[SUBSYS - Fine Pointing and Tracking]]\n- implemented-by: [[COMP - Candidate 50cm Telescope Assembly]]\n- references: [[REF - Optical Ground Station Design Literature]]"
+      }
+    ],
+    "summaryText": "The telescope and optical receiver subsystem collects the incoming optical signal from a LEO satellite, concentrates it through the receiving telescope, and routes the optical energy toward the receiver chain for detection, demodulation, and downstream processing. This subsystem is the first physical interface between the satellite downlink and the ground station. Its design choices strongly affect link margin, pointing tolerance, fiber coupling efficiency, and receiver sensitivity.",
+    "fullText": "Summary The telescope and optical receiver subsystem collects the incoming optical signal from a LEO satellite, concentrates it through the receiving telescope, and routes the optical energy toward the receiver chain for detection, demodulation, and downstream processing. This subsystem is the first physical interface between the satellite downlink and the ground station. Its design choices strongly affect link margin, pointing tolerance, fiber coupling efficiency, and receiver sensitivity. Role in the Ground Station During a satellite pass, the telescope must collect a weak, fast-moving optical signal while the rest of the system tracks the satellite and corrects pointing error. The receiver side must then preserve as much collected optical power as possible so that downstream electronics can recover the data stream. The subsystem connects directly to: - [[SUBSYS - Fine Pointing and Tracking]] - [[REQ - Maintain Optical Link During LEO Pass]] - [[REQ - Support High-Rate Downlink Capture]] - [[PHYS - Diffraction Link Budget and Aperture Size]] - [[PHYS - Fiber Coupling Efficiency]] Key Requirements - [[REQ - Maintain Optical Link During LEO Pass]] - [[REQ - Support High-Rate Downlink Capture]] The telescope and receiver must maintain adequate optical collection and signal quality throughout the usable portion of a LEO pass. This means the subsystem cannot be designed independently of tracking, atmospheric effects, and receiver sensitivity. Major Design Decisions - [[DD - Use Ritchey-Chretien Telescope for Primary Receiver]] - [[DD - Use Fiber-Coupled Optical Receiver Architecture]] These decisions are treated as separate design-decision notes because each has different trade-offs. The telescope choice affects optical quality, mechanical integration, and field performance. The receiver architecture affects coupling loss, alignment sensitivity, modularity, and downstream component selection. Major Components - [[COMP - Candidate 50cm Telescope Assembly]] The component note records candidate vendor, procurement, lead-time, and technical-risk information. In a production vault, this would be connected to datasheets, procurement records, inspection results, and test reports. Dependencies This subsystem depends on the fine pointing system because optical collection alone is not sufficient. If pointing error is too high, the collected beam may not couple efficiently into the receiver path. Key dependency: - [[SUBSYS - Fine Pointing and Tracking]] Open Questions - What are the measured seeing conditions and turbulence statistics at the intended ground-station site? - What link margin is required for the first satellite downlink demonstration? - How much receiver loss can be tolerated before the communication link becomes unreliable? - Should early prototypes prioritize alignment flexibility over compact packaging? Links - derives-from: [[REQ - Maintain Optical Link During LEO Pass]], [[REQ - Support High-Rate Downlink Capture]] - justified-by: [[PHYS - Diffraction Link Budget and Aperture Size]], [[PHYS - Fiber Coupling Efficiency]] - depends-on: [[SUBSYS - Fine Pointing and Tracking]] - implemented-by: [[COMP - Candidate 50cm Telescope Assembly]] - references: [[REF - Optical Ground Station Design Literature]]"
+  }
+]
