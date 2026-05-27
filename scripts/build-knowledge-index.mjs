@@ -3,7 +3,7 @@ import path from "node:path";
 import matter from "gray-matter";
 
 const workspaceRoot = process.cwd();
-const vaultRoot = path.resolve(workspaceRoot, "../02_Obsidian_Vault/QOSMIC_Knowledge_Vault");
+const vaultRoot = path.resolve(workspaceRoot, "02_obsidian_vault/QOSMIC_Knowledge_Vault");
 const outputPath = path.resolve(workspaceRoot, "public/knowledge-index.json");
 
 const excludedDirectories = new Set([".obsidian", "templates"]);
